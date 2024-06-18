@@ -1,0 +1,10 @@
+{
+    "save": "t5_512_github_1235_medium_checkpoints",
+    "load": "t5_512_github_1235_medium_checkpoints",
+    "log-dir": "t5_512_github_1235_medium_logs",
+    "seed": 1235,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "rpe"
+}

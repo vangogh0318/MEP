@@ -1,0 +1,9 @@
+{
+    "save": "kerple_power_original_alibi_scaling11_norm_openwebtext2_1235_checkpoints",
+    "load": "kerple_power_original_alibi_scaling11_norm_openwebtext2_1235_checkpoints",
+    "log-dir": "kerple_power_original_alibi_scaling11_norm_openwebtext2_1235_logs",
+    "seed": 1235,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "alibi_scaling": 11,
+    "pos-emb": "kerple_power_norm_original_scaling__"
+}

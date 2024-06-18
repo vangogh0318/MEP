@@ -1,0 +1,10 @@
+{
+    "save": "ali05_gaussian_kerplelog_fp32_github_1236_checkpoints",
+    "load": "ali05_gaussian_kerplelog_fp32_github_1236_checkpoints",
+    "log-dir": "ali05_gaussian_kerplelog_fp32_github_1236_logs",
+    "seed": 1237,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "snope_kerplelog"
+}

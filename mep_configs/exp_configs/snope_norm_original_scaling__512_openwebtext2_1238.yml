@@ -1,0 +1,9 @@
+{
+    "save": "snope_norm_original_scaling__512_openwebtext2_1238_checkpoints",
+    "load": "snope_norm_original_scaling__512_openwebtext2_1238_checkpoints",
+    "log-dir": "snope_norm_original_scaling__512_openwebtext2_1238_logs",
+    "seed": 1238,
+    "alibi_scaling": 512,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_norm_original_scaling_"
+}

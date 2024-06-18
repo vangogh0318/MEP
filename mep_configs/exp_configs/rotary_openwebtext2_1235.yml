@@ -1,0 +1,10 @@
+{
+    "save": "rope_openwebtext2_1235_checkpoints",
+    "load": "rope_openwebtext2_1235_checkpoints",
+    "log-dir": "rope_openwebtext2_1235_logs",
+    "seed": 1235,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "rotary"
+}

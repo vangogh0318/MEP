@@ -1,0 +1,8 @@
+{
+    "save": "t5_32_openwebtext2_1235_checkpoints",
+    "load": "t5_32_openwebtext2_1235_checkpoints",
+    "log-dir": "t5_32_openwebtext2_1235_logs",
+    "seed": 1235,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "rpe"
+}

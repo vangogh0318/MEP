@@ -1,0 +1,9 @@
+{
+    "save": "snope_norm_original_scaling__160_github_1235_checkpoints",
+    "load": "snope_norm_original_scaling__160_github_1235_checkpoints",
+    "log-dir": "snope_norm_original_scaling__160_github_1235_logs",
+    "seed": 1237,
+    "alibi_scaling": 160,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "snope_norm_original_scaling_"
+}

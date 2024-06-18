@@ -1,0 +1,8 @@
+{
+    "save": "kerple_power_original_alibi_norm_1201_openwebtext2_1235_checkpoints",
+    "load": "kerple_power_original_alibi_norm_1201_openwebtext2_1235_checkpoints",
+    "log-dir": "kerple_power_original_alibi_norm_1201_openwebtext2_1235_logs",
+    "seed": 1235,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "kerple_power_norm_original__"
+}

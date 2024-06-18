@@ -1,0 +1,9 @@
+{
+    "save": "alibi_slopes_h4_openwebtext2_1238_checkpoints",
+    "load": "alibi_slopes_h4_openwebtext2_1238_checkpoints",
+    "log-dir": "alibi_slopes_h4_openwebtext2_1238_logs",
+    "seed": 1238,
+    "alibi_scaling": 4,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_norm_original_scaling__"
+}

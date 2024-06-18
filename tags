@@ -1,0 +1,1347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	mycode/fit.py	/^A = op.curve_fit(f_1, x_group, y_group)[0]$/;"	v
+ATTENTION_TYPE_CHOICES	megatron/neox_arguments/neox_args.py	/^ATTENTION_TYPE_CHOICES = [$/;"	v
+AbstractTokenizer	megatron/tokenizer/tokenizer.py	/^class AbstractTokenizer(ABC):$/;"	c
+Add	megatron/fused_kernels/scaled_masked_softmax.h	/^struct Add {$/;"	s	namespace:__anon1
+Add	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^struct Add {$/;"	s	namespace:__anon2
+AliBi	megatron/model/positional_embeddings.py	/^class AliBi(torch.nn.Module):$/;"	c
+AnnealingLR	megatron/learning_rates.py	/^class AnnealingLR(object):$/;"	c
+ArXiv	tools/corpora.py	/^class ArXiv(DataDownloader):$/;"	c
+BASE_CLASSES	megatron/neox_arguments/arguments.py	/^BASE_CLASSES = [$/;"	v
+BF16_PARAMS_TO_TEST	tests/model/test_model_train.py	/^BF16_PARAMS_TO_TEST = {$/;"	v
+BLUE	tools/inspect_checkpoints.py	/^    BLUE = "\\033[94m"$/;"	v	class:COLORS
+BlendableDataset	megatron/data/blendable_dataset.py	/^class BlendableDataset(torch.utils.data.Dataset):$/;"	c
+Books1	tools/corpora.py	/^class Books1(DataDownloader):$/;"	c
+Books3	tools/corpora.py	/^class Books3(DataDownloader):$/;"	c
+C4	tools/corpora.py	/^class C4(DataDownloader):$/;"	c
+C4OpenWebText	tools/corpora.py	/^class C4OpenWebText(DataDownloader):$/;"	c
+COLORS	tools/inspect_checkpoints.py	/^class COLORS:$/;"	c
+CYAN	tools/inspect_checkpoints.py	/^    CYAN = "\\033[96m"$/;"	v	class:COLORS
+CharCounter	megatron/utils.py	/^class CharCounter:$/;"	c
+CharLevelTokenizer	megatron/tokenizer/tokenizer.py	/^class CharLevelTokenizer(AbstractTokenizer):$/;"	c
+ColumnParallelLinear	megatron/mpu/layers.py	/^class ColumnParallelLinear(torch.nn.Module):$/;"	c
+DATASET_CHOICES	prepare_data.py	/^DATASET_CHOICES = [i for i in DATA_DOWNLOADERS.keys() if i != "pass"]$/;"	v
+DATA_DOWNLOADERS	tools/corpora.py	/^DATA_DOWNLOADERS = {$/;"	v
+DATA_PTR	megatron/fused_kernels/compat.h	26;"	d
+DATA_PTR	megatron/fused_kernels/compat.h	28;"	d
+DEEPSPEED_ARG_CLASSES	megatron/neox_arguments/arguments.py	/^DEEPSPEED_ARG_CLASSES = [NeoXArgsDeepspeedRunner, NeoXArgsDeepspeedConfig]$/;"	v
+DEEPSPEED_UNIT_WORKER_TIMEOUT	tests/common.py	/^DEEPSPEED_UNIT_WORKER_TIMEOUT = 120$/;"	v
+DISPATCH_FLOAT_HALF_AND_BFLOAT_INOUT_TYPES	megatron/fused_kernels/type_shim.h	35;"	d
+DISPATCH_HALF_AND_BFLOAT	megatron/fused_kernels/type_shim.h	20;"	d
+DLTS_HOSTFILE	megatron/neox_arguments/arguments.py	/^    DLTS_HOSTFILE = os.environ["DLTS_HOSTFILE"]$/;"	v
+DataDownloader	tools/corpora.py	/^class DataDownloader(ABC):$/;"	c
+DistributedBatchSampler	megatron/data/samplers.py	/^class DistributedBatchSampler(data.sampler.BatchSampler):$/;"	c
+END	tools/inspect_checkpoints.py	/^    END = "\\033[0m"$/;"	v	class:COLORS
+Embedding	megatron/model/word_embeddings.py	/^class Embedding(torch.nn.Module):$/;"	c
+EmbeddingPipe	megatron/model/word_embeddings.py	/^class EmbeddingPipe(Embedding):$/;"	c
+Encoder	tools/preprocess_data.py	/^class Encoder(object):$/;"	c
+Enron	tools/corpora.py	/^class Enron(DataDownloader):$/;"	c
+Enwik8	tools/corpora.py	/^class Enwik8(DataDownloader):$/;"	c
+EuroParl	tools/corpora.py	/^class EuroParl(DataDownloader):$/;"	c
+EvalHarnessAdapter	eval_tasks/eval_adapter.py	/^class EvalHarnessAdapter(GPT2LM):$/;"	c
+FreeLaw	tools/corpora.py	/^class FreeLaw(DataDownloader):$/;"	c
+FusedScaleMaskSoftmax	megatron/model/fused_softmax.py	/^class FusedScaleMaskSoftmax(nn.Module):$/;"	c
+GEGLU	megatron/model/activations.py	/^class GEGLU(torch.nn.Module):$/;"	c
+GMLPBlock	megatron/model/gmlp.py	/^class GMLPBlock(nn.Module):$/;"	c
+GPT2Dataset	megatron/data/gpt2_dataset.py	/^class GPT2Dataset(torch.utils.data.Dataset):$/;"	c
+GPT2ModelPipe	megatron/model/gpt2_model.py	/^class GPT2ModelPipe(PipelineModule, torch.nn.Module):$/;"	c
+GPT2Tokenizer	megatron/tokenizer/gpt2_tokenization.py	/^class GPT2Tokenizer(object):$/;"	c
+GPT2_MERGE_URL	tools/corpora.py	/^GPT2_MERGE_URL = "https:\/\/s3.amazonaws.com\/models.huggingface.co\/bert\/gpt2-merges.txt"$/;"	v
+GPT2_VOCAB_URL	tools/corpora.py	/^GPT2_VOCAB_URL = "https:\/\/s3.amazonaws.com\/models.huggingface.co\/bert\/gpt2-vocab.json"$/;"	v
+GREEN	tools/inspect_checkpoints.py	/^    GREEN = "\\033[92m"$/;"	v	class:COLORS
+GeLUFunction	megatron/model/activations.py	/^class GeLUFunction(torch.autograd.Function):$/;"	c
+Github	tools/corpora.py	/^class Github(DataDownloader):$/;"	c
+GradientNoiseScale	megatron/gradient_noise_scale/gradient_noise_scale.py	/^class GradientNoiseScale:$/;"	c
+HFGPT2Tokenizer	megatron/tokenizer/tokenizer.py	/^class HFGPT2Tokenizer(AbstractTokenizer):$/;"	c
+HFTokenizer	megatron/tokenizer/tokenizer.py	/^class HFTokenizer(AbstractTokenizer):$/;"	c
+HackerNews	tools/corpora.py	/^class HackerNews(DataDownloader):$/;"	c
+IGNORED_MODEL_STATE_KEYS	tools/merge20b.py	/^IGNORED_MODEL_STATE_KEYS = [$/;"	v
+Index	megatron/data/indexed_dataset.py	/^    class Index(object):$/;"	c	class:MMapIndexedDataset
+IndexedCachedDataset	megatron/data/indexed_dataset.py	/^class IndexedCachedDataset(IndexedDataset):$/;"	c
+IndexedDataset	megatron/data/indexed_dataset.py	/^class IndexedDataset(torch.utils.data.Dataset):$/;"	c
+IndexedDatasetBuilder	megatron/data/indexed_dataset.py	/^class IndexedDatasetBuilder(object):$/;"	c
+LIBEXT	megatron/data/Makefile	/^LIBEXT = $(shell python3-config --extension-suffix)$/;"	m
+LIBNAME	megatron/data/Makefile	/^LIBNAME = helpers$/;"	m
+LONG_SENTENCE_LEN	megatron/data/helpers.cpp	/^const int32_t LONG_SENTENCE_LEN = 512;$/;"	v
+Lambda	megatron/model/utils.py	/^class Lambda(torch.nn.Module):$/;"	c
+MAGENTA	tools/inspect_checkpoints.py	/^    MAGENTA = "\\033[35m"$/;"	v	class:COLORS
+MERGES_NAME	megatron/tokenizer/gpt2_tokenization.py	/^MERGES_NAME = "merges.txt"$/;"	v
+MMapIndexedDataset	megatron/data/indexed_dataset.py	/^class MMapIndexedDataset(torch.utils.data.Dataset):$/;"	c
+MMapIndexedDatasetBuilder	megatron/data/indexed_dataset.py	/^class MMapIndexedDatasetBuilder(object):$/;"	c
+Max	megatron/fused_kernels/scaled_masked_softmax.h	/^struct Max {$/;"	s	namespace:__anon1
+Max	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^struct Max {$/;"	s	namespace:__anon2
+NEOX_ARG_CLASSES	megatron/neox_arguments/arguments.py	/^NEOX_ARG_CLASSES = [i for i in BASE_CLASSES if i not in DEEPSPEED_ARG_CLASSES]$/;"	v
+NeoXArgs	megatron/neox_arguments/arguments.py	/^class NeoXArgs(*BASE_CLASSES):$/;"	c
+NeoXArgsDeepspeedConfig	megatron/neox_arguments/deepspeed_args.py	/^class NeoXArgsDeepspeedConfig(NeoXArgsTemplate):$/;"	c
+NeoXArgsDeepspeedRunner	megatron/neox_arguments/deepspeed_args.py	/^class NeoXArgsDeepspeedRunner(NeoXArgsTemplate):$/;"	c
+NeoXArgsLRScheduler	megatron/neox_arguments/neox_args.py	/^class NeoXArgsLRScheduler(NeoXArgsTemplate):$/;"	c
+NeoXArgsLogging	megatron/neox_arguments/neox_args.py	/^class NeoXArgsLogging(NeoXArgsTemplate):$/;"	c
+NeoXArgsModel	megatron/neox_arguments/neox_args.py	/^class NeoXArgsModel(NeoXArgsTemplate):$/;"	c
+NeoXArgsOptimizer	megatron/neox_arguments/neox_args.py	/^class NeoXArgsOptimizer(NeoXArgsTemplate):$/;"	c
+NeoXArgsOther	megatron/neox_arguments/neox_args.py	/^class NeoXArgsOther(NeoXArgsTemplate):$/;"	c
+NeoXArgsParallelism	megatron/neox_arguments/neox_args.py	/^class NeoXArgsParallelism(NeoXArgsTemplate):$/;"	c
+NeoXArgsTemplate	megatron/neox_arguments/template.py	/^class NeoXArgsTemplate:$/;"	c
+NeoXArgsTextgen	megatron/neox_arguments/neox_args.py	/^class NeoXArgsTextgen(NeoXArgsTemplate):$/;"	c
+NeoXArgsTokenizer	megatron/neox_arguments/neox_args.py	/^class NeoXArgsTokenizer(NeoXArgsTemplate):$/;"	c
+NeoXArgsTraining	megatron/neox_arguments/neox_args.py	/^class NeoXArgsTraining(NeoXArgsTemplate):$/;"	c
+NeuralNetwork	mycode/net.py	/^class NeuralNetwork(nn.Module):$/;"	c
+NiH	tools/corpora.py	/^class NiH(DataDownloader):$/;"	c
+NormPipe	megatron/model/transformer.py	/^class NormPipe(nn.Module):$/;"	c
+OPTIMIZER_PARAMS	tests/model/test_model_instantiation.py	/^OPTIMIZER_PARAMS = {$/;"	v
+OPTIMIZER_PARAMS	tests/model/test_model_train.py	/^OPTIMIZER_PARAMS = {$/;"	v
+OPT_DEFAULT	megatron/neox_arguments/arguments.py	/^OPT_DEFAULT = "Adam"$/;"	v
+OPT_PARAMS_DEFAULTS	megatron/neox_arguments/arguments.py	/^OPT_PARAMS_DEFAULTS = {$/;"	v
+OpenWebText2	tools/corpora.py	/^class OpenWebText2(DataDownloader):$/;"	c
+OverflowMonitor	megatron/utils.py	/^class OverflowMonitor:$/;"	c
+PARAMS_TO_TEST	tests/model/test_model_checkpoint.py	/^PARAMS_TO_TEST = {$/;"	v
+PARAMS_TO_TEST	tests/model/test_model_generation.py	/^PARAMS_TO_TEST = {$/;"	v
+PARAMS_TO_TEST	tests/model/test_model_instantiation.py	/^PARAMS_TO_TEST = {$/;"	v
+PARAMS_TO_TEST	tests/model/test_model_train.py	/^PARAMS_TO_TEST = {$/;"	v
+PRETRAINED_MERGES_ARCHIVE_MAP	megatron/tokenizer/gpt2_tokenization.py	/^PRETRAINED_MERGES_ARCHIVE_MAP = {$/;"	v
+PRETRAINED_VOCAB_ARCHIVE_MAP	megatron/tokenizer/gpt2_tokenization.py	/^PRETRAINED_VOCAB_ARCHIVE_MAP = {$/;"	v
+PRETRAINED_VOCAB_POSITIONAL_EMBEDDINGS_SIZE_MAP	megatron/tokenizer/gpt2_tokenization.py	/^PRETRAINED_VOCAB_POSITIONAL_EMBEDDINGS_SIZE_MAP = {$/;"	v
+PRIMITIVE_TYPES	tools/inspect_checkpoints.py	/^PRIMITIVE_TYPES = (int, float, bool, str, type)$/;"	v
+PYBIND11_MODULE	megatron/data/helpers.cpp	/^PYBIND11_MODULE(helpers, m)$/;"	f
+PYBIND11_MODULE	megatron/fused_kernels/scaled_masked_softmax.cpp	/^PYBIND11_MODULE(TORCH_EXTENSION_NAME, m)$/;"	f
+PYBIND11_MODULE	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^PYBIND11_MODULE(TORCH_EXTENSION_NAME, m)$/;"	f
+ParallelAliBi	megatron/mpu/layers.py	/^class ParallelAliBi(torch.nn.Module):$/;"	c
+ParallelAliBiLearning	megatron/mpu/layers.py	/^class ParallelAliBiLearning(torch.nn.Module):$/;"	c
+ParallelKerpleLog	megatron/mpu/layers.py	/^class ParallelKerpleLog(torch.nn.Module):$/;"	c
+ParallelKerplePower	megatron/mpu/layers.py	/^class ParallelKerplePower(torch.nn.Module):$/;"	c
+ParallelLinear	megatron/model/transformer.py	/^class ParallelLinear(nn.Module):$/;"	c
+ParallelLinearPipe	megatron/model/transformer.py	/^class ParallelLinearPipe(ParallelLinear):$/;"	c
+ParallelMLP	megatron/model/transformer.py	/^class ParallelMLP(nn.Module):$/;"	c
+ParallelRelativePositionBias	megatron/mpu/layers.py	/^class ParallelRelativePositionBias(torch.nn.Module):$/;"	c
+ParallelSNOPE	megatron/mpu/layers.py	/^class ParallelSNOPE(torch.nn.Module):$/;"	c
+ParallelSNOPE_alibi_merge	megatron/mpu/layers.py	/^class ParallelSNOPE_alibi_merge(torch.nn.Module):$/;"	c
+ParallelSNOPE_old	megatron/mpu/layers.py	/^class ParallelSNOPE_old(torch.nn.Module):$/;"	c
+ParallelSNOPE_right	megatron/mpu/layers.py	/^class ParallelSNOPE_right(torch.nn.Module):$/;"	c
+ParallelSelfAttention	megatron/model/transformer.py	/^class ParallelSelfAttention(nn.Module):$/;"	c
+ParallelTransformerLayer	megatron/model/transformer.py	/^class ParallelTransformerLayer(nn.Module):$/;"	c
+ParallelTransformerLayerPipe	megatron/model/transformer.py	/^class ParallelTransformerLayerPipe(ParallelTransformerLayer):$/;"	c
+Pile	tools/corpora.py	/^class Pile(DataDownloader):$/;"	c
+PileSubset	tools/corpora.py	/^class PileSubset(DataDownloader):$/;"	c
+PubMed	tools/corpora.py	/^class PubMed(DataDownloader):$/;"	c
+RED	tools/inspect_checkpoints.py	/^    RED = "\\033[31m"$/;"	v	class:COLORS
+RMSNorm	megatron/model/norms.py	/^class RMSNorm(torch.nn.Module):$/;"	c
+RandomSampler	megatron/data/samplers.py	/^class RandomSampler(data.sampler.Sampler):$/;"	c
+RotaryEmbedding	megatron/model/positional_embeddings.py	/^class RotaryEmbedding(torch.nn.Module):$/;"	c
+RowParallelLinear	megatron/mpu/layers.py	/^class RowParallelLinear(torch.nn.Module):$/;"	c
+SM3	megatron/optimizers.py	/^class SM3(Optimizer):$/;"	c
+SPECIAL_TOKENS_NAME	megatron/tokenizer/gpt2_tokenization.py	/^SPECIAL_TOKENS_NAME = "special_tokens.txt"$/;"	v
+ScaleNorm	megatron/model/norms.py	/^class ScaleNorm(torch.nn.Module):$/;"	c
+ScaledMaskedSoftmax	megatron/model/fused_softmax.py	/^class ScaledMaskedSoftmax(torch.autograd.Function):$/;"	c
+ScaledUpperTriangMaskedSoftmax	megatron/model/fused_softmax.py	/^class ScaledUpperTriangMaskedSoftmax(torch.autograd.Function):$/;"	c
+SentencePieceTokenizer	megatron/tokenizer/tokenizer.py	/^class SentencePieceTokenizer(AbstractTokenizer):$/;"	c
+SequentialWrapper	megatron/model/utils.py	/^class SequentialWrapper(torch.nn.Module):$/;"	c
+SinusoidalPositionalEmbedding	megatron/model/positional_embeddings.py	/^class SinusoidalPositionalEmbedding(torch.nn.Module):$/;"	c
+SoftEmbedding	megatron/model/word_embeddings.py	/^class SoftEmbedding(torch.nn.Module):$/;"	c
+SoftmaxFusionTypes	megatron/model/fused_softmax.py	/^class SoftmaxFusionTypes(enum.Enum):$/;"	c
+SpatialGatingUnit	megatron/model/gmlp.py	/^class SpatialGatingUnit(nn.Module):$/;"	c
+StackExchange	tools/corpora.py	/^class StackExchange(DataDownloader):$/;"	c
+T5	mycode/t5.py	/^def T5() :$/;"	f
+TEST_CHECKPOINT_DIR	tests/common.py	/^TEST_CHECKPOINT_DIR = "test_checkpoint"$/;"	v
+TEST_LOG_DIR	tests/common.py	/^TEST_LOG_DIR = "test_logs"$/;"	v
+TEST_TENSORBOARD_DIR	tests/common.py	/^TEST_TENSORBOARD_DIR = "test_tensorboard"$/;"	v
+TOKENIZER_CHOICES	prepare_data.py	/^TOKENIZER_CHOICES = [$/;"	v
+TORCH_CHECK	megatron/fused_kernels/compat.h	22;"	d
+Tee	megatron/logging.py	/^class Tee:$/;"	c
+Timer	megatron/utils.py	/^class Timer:$/;"	c
+Timers	megatron/utils.py	/^class Timers:$/;"	c
+TinyAttention	megatron/model/gmlp.py	/^class TinyAttention(nn.Module):$/;"	c
+UNDERLINE	tools/inspect_checkpoints.py	/^    UNDERLINE = "\\033[4m"$/;"	v	class:COLORS
+UbuntuIRC	tools/corpora.py	/^class UbuntuIRC(DataDownloader):$/;"	c
+VOCAB_NAME	megatron/tokenizer/gpt2_tokenization.py	/^VOCAB_NAME = "vocab.json"$/;"	v
+VOCAB_SIZE	tools/merge20b.py	/^VOCAB_SIZE = 50432$/;"	v
+VocabParallelEmbedding	megatron/mpu/layers.py	/^class VocabParallelEmbedding(torch.nn.Module):$/;"	c
+VocabUtility	megatron/mpu/utils.py	/^class VocabUtility:$/;"	c
+WARP_SHFL_XOR_NATIVE	megatron/fused_kernels/scaled_masked_softmax.h	/^WARP_SHFL_XOR_NATIVE(T value, int laneMask, int width = warpSize, unsigned int mask = 0xffffffff)$/;"	f	namespace:__anon1
+WARP_SHFL_XOR_NATIVE	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^WARP_SHFL_XOR_NATIVE(T value, int laneMask, int width = warpSize, unsigned int mask = 0xffffffff)$/;"	f	namespace:__anon2
+WHITE	tools/inspect_checkpoints.py	/^    WHITE = "\\033[37m"$/;"	v	class:COLORS
+YELLOW	tools/inspect_checkpoints.py	/^    YELLOW = "\\033[33m"$/;"	v	class:COLORS
+YoutubeSubtitles	tools/corpora.py	/^class YoutubeSubtitles(DataDownloader):$/;"	c
+ZERO_DEFAULTS	megatron/neox_arguments/arguments.py	/^ZERO_DEFAULTS = {$/;"	v
+_CHECKPOINTED_ACTIVATIONS_MEMORY_BUFFER	megatron/mpu/random.py	/^_CHECKPOINTED_ACTIVATIONS_MEMORY_BUFFER = None$/;"	v
+_CUDA_RNG_STATE_TRACKER	megatron/mpu/random.py	/^_CUDA_RNG_STATE_TRACKER = deepspeed.checkpointing._CUDA_RNG_STATE_TRACKER$/;"	v
+_CopyToModelParallelRegion	megatron/mpu/mappings.py	/^class _CopyToModelParallelRegion(torch.autograd.Function):$/;"	c
+_DATA_PARALLEL_GROUP	megatron/mpu/initialize.py	/^_DATA_PARALLEL_GROUP = None$/;"	v
+_FP32_ALLREDUCE	megatron/mpu/initialize.py	/^_FP32_ALLREDUCE = None$/;"	v
+_GPT2BPETokenizer	megatron/tokenizer/tokenizer.py	/^class _GPT2BPETokenizer(AbstractTokenizer):$/;"	c
+_GatherFromModelParallelRegion	megatron/mpu/mappings.py	/^class _GatherFromModelParallelRegion(torch.autograd.Function):$/;"	c
+_HDR_MAGIC	megatron/data/indexed_dataset.py	/^        _HDR_MAGIC = b"MMIDIDX\\x00\\x00"$/;"	v	class:MMapIndexedDataset.Index
+_HDR_MAGIC	megatron/data/indexed_dataset.py	/^    _HDR_MAGIC = b"TNTIDX\\x00\\x00"$/;"	v	class:IndexedDataset
+_IO_PARALLEL_GROUP	megatron/mpu/initialize.py	/^_IO_PARALLEL_GROUP = None$/;"	v
+_MAX_DATA_DIM	megatron/mpu/data.py	/^_MAX_DATA_DIM = 4$/;"	v
+_MODEL_PARALLEL_GROUP	megatron/mpu/initialize.py	/^_MODEL_PARALLEL_GROUP = None$/;"	v
+_MODEL_PARALLEL_RNG_TRACKER_NAME	megatron/mpu/random.py	/^_MODEL_PARALLEL_RNG_TRACKER_NAME = ($/;"	v
+_MPU_RANK	megatron/mpu/initialize.py	/^_MPU_RANK = None$/;"	v
+_MPU_TOPOLOGY	megatron/mpu/initialize.py	/^_MPU_TOPOLOGY = None$/;"	v
+_MPU_WORLD_SIZE	megatron/mpu/initialize.py	/^_MPU_WORLD_SIZE = None$/;"	v
+_PIPE_PARALLEL_GROUP	megatron/mpu/initialize.py	/^_PIPE_PARALLEL_GROUP = None$/;"	v
+_ReduceFromModelParallelRegion	megatron/mpu/mappings.py	/^class _ReduceFromModelParallelRegion(torch.autograd.Function):$/;"	c
+_ScatterToModelParallelRegion	megatron/mpu/mappings.py	/^class _ScatterToModelParallelRegion(torch.autograd.Function):$/;"	c
+_VocabParallelCrossEntropy	megatron/mpu/cross_entropy.py	/^class _VocabParallelCrossEntropy(torch.autograd.Function):$/;"	c
+_Writer	megatron/data/indexed_dataset.py	/^            class _Writer(object):$/;"	c	function:MMapIndexedDataset.Index.writer
+__best_fitting_dtype	megatron/data/indexed_dataset.py	/^def __best_fitting_dtype(vocab_size=None):$/;"	f	file:
+__call__	megatron/utils.py	/^    def __call__(self, name):$/;"	m	class:Timers	file:
+__del__	megatron/data/indexed_dataset.py	/^        def __del__(self):$/;"	m	class:MMapIndexedDataset.Index	file:
+__del__	megatron/data/indexed_dataset.py	/^    def __del__(self):$/;"	m	class:IndexedDataset	file:
+__del__	megatron/data/indexed_dataset.py	/^    def __del__(self):$/;"	m	class:MMapIndexedDataset	file:
+__del__	megatron/logging.py	/^    def __del__(self):$/;"	m	class:Tee	file:
+__enter__	megatron/data/indexed_dataset.py	/^                def __enter__(self):$/;"	m	class:MMapIndexedDataset.Index.writer._Writer	file:
+__exit__	megatron/data/indexed_dataset.py	/^                def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MMapIndexedDataset.Index.writer._Writer	file:
+__getitem__	megatron/data/blendable_dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:BlendableDataset	file:
+__getitem__	megatron/data/gpt2_dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:GPT2Dataset	file:
+__getitem__	megatron/data/indexed_dataset.py	/^        def __getitem__(self, i):$/;"	m	class:MMapIndexedDataset.Index	file:
+__getitem__	megatron/data/indexed_dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:IndexedCachedDataset	file:
+__getitem__	megatron/data/indexed_dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:IndexedDataset	file:
+__getitem__	megatron/data/indexed_dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:MMapIndexedDataset	file:
+__getstate__	megatron/data/indexed_dataset.py	/^    def __getstate__(self):$/;"	m	class:MMapIndexedDataset	file:
+__init__	eval_tasks/eval_adapter.py	/^    def __init__(self, model, forward_step_fn, neox_args, batch_size=None):$/;"	m	class:EvalHarnessAdapter
+__init__	megatron/data/blendable_dataset.py	/^    def __init__(self, datasets, weights):$/;"	m	class:BlendableDataset
+__init__	megatron/data/gpt2_dataset.py	/^    def __init__($/;"	m	class:GPT2Dataset
+__init__	megatron/data/indexed_dataset.py	/^        def __init__(self, path, skip_warmup=False):$/;"	m	class:MMapIndexedDataset.Index
+__init__	megatron/data/indexed_dataset.py	/^    def __init__(self, out_file, dtype=np.int32):$/;"	m	class:IndexedDatasetBuilder
+__init__	megatron/data/indexed_dataset.py	/^    def __init__(self, out_file, dtype=np.int64):$/;"	m	class:MMapIndexedDatasetBuilder
+__init__	megatron/data/indexed_dataset.py	/^    def __init__(self, path):$/;"	m	class:IndexedCachedDataset
+__init__	megatron/data/indexed_dataset.py	/^    def __init__(self, path):$/;"	m	class:IndexedDataset
+__init__	megatron/data/indexed_dataset.py	/^    def __init__(self, path, skip_warmup=False):$/;"	m	class:MMapIndexedDataset
+__init__	megatron/data/samplers.py	/^    def __init__($/;"	m	class:DistributedBatchSampler
+__init__	megatron/data/samplers.py	/^    def __init__(self, data_source, replacement=False, num_samples=None):$/;"	m	class:RandomSampler
+__init__	megatron/gradient_noise_scale/gradient_noise_scale.py	/^    def __init__($/;"	m	class:GradientNoiseScale
+__init__	megatron/learning_rates.py	/^    def __init__($/;"	m	class:AnnealingLR
+__init__	megatron/logging.py	/^    def __init__(self, file, err=False):$/;"	m	class:Tee
+__init__	megatron/model/activations.py	/^    def __init__(self, neox_args):$/;"	m	class:GEGLU
+__init__	megatron/model/fused_softmax.py	/^    def __init__($/;"	m	class:FusedScaleMaskSoftmax
+__init__	megatron/model/gmlp.py	/^    def __init__($/;"	m	class:GMLPBlock
+__init__	megatron/model/gmlp.py	/^    def __init__(self, neox_args, d_attn, d_ff, mask_fn):$/;"	m	class:TinyAttention
+__init__	megatron/model/gmlp.py	/^    def __init__(self, neox_args, d_ff, d_attn=None, causal=True, mask_fn=None):$/;"	m	class:SpatialGatingUnit
+__init__	megatron/model/gpt2_model.py	/^    def __init__($/;"	m	class:GPT2ModelPipe
+__init__	megatron/model/norms.py	/^    def __init__(self, dim, eps=1e-5):$/;"	m	class:ScaleNorm
+__init__	megatron/model/norms.py	/^    def __init__(self, dim, p=-1.0, eps=1e-8, bias=False):$/;"	m	class:RMSNorm
+__init__	megatron/model/positional_embeddings.py	/^    def __init__(self, dim, base=10000, precision=torch.half):$/;"	m	class:RotaryEmbedding
+__init__	megatron/model/positional_embeddings.py	/^    def __init__(self, dim, base=10000, precision=torch.half):$/;"	m	class:SinusoidalPositionalEmbedding
+__init__	megatron/model/positional_embeddings.py	/^    def __init__(self, num_heads, mp_size=1, mp_rank=1):$/;"	m	class:AliBi
+__init__	megatron/model/transformer.py	/^    def __init__($/;"	m	class:ParallelLinear
+__init__	megatron/model/transformer.py	/^    def __init__($/;"	m	class:ParallelMLP
+__init__	megatron/model/transformer.py	/^    def __init__($/;"	m	class:ParallelSelfAttention
+__init__	megatron/model/transformer.py	/^    def __init__($/;"	m	class:ParallelTransformerLayer
+__init__	megatron/model/transformer.py	/^    def __init__(self, norm_class, hidden_size, eps):$/;"	m	class:NormPipe
+__init__	megatron/model/utils.py	/^    def __init__($/;"	m	class:SequentialWrapper
+__init__	megatron/model/utils.py	/^    def __init__(self, func):$/;"	m	class:Lambda
+__init__	megatron/model/word_embeddings.py	/^    def __init__($/;"	m	class:Embedding
+__init__	megatron/model/word_embeddings.py	/^    def __init__($/;"	m	class:SoftEmbedding
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:ColumnParallelLinear
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:ParallelKerpleLog
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:ParallelKerplePower
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:ParallelRelativePositionBias
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:ParallelSNOPE_old
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:RowParallelLinear
+__init__	megatron/mpu/layers.py	/^    def __init__($/;"	m	class:VocabParallelEmbedding
+__init__	megatron/mpu/layers.py	/^    def __init__(self, neox_args):$/;"	m	class:ParallelAliBi
+__init__	megatron/mpu/layers.py	/^    def __init__(self, neox_args):$/;"	m	class:ParallelAliBiLearning
+__init__	megatron/mpu/layers.py	/^    def __init__(self, neox_args):$/;"	m	class:ParallelSNOPE
+__init__	megatron/mpu/layers.py	/^    def __init__(self, neox_args):$/;"	m	class:ParallelSNOPE_alibi_merge
+__init__	megatron/mpu/layers.py	/^    def __init__(self, neox_args):$/;"	m	class:ParallelSNOPE_right
+__init__	megatron/optimizers.py	/^    def __init__($/;"	m	class:madgrad_wd
+__init__	megatron/optimizers.py	/^    def __init__(self, params, lr=0.1, momentum=0.0, beta=0.0, eps=1e-30):$/;"	m	class:SM3
+__init__	megatron/tokenizer/gpt2_tokenization.py	/^    def __init__($/;"	m	class:GPT2Tokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, name):$/;"	m	class:AbstractTokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, vocab_file):$/;"	m	class:HFTokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, vocab_file):$/;"	m	class:SentencePieceTokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, vocab_file, merge_file):$/;"	m	class:_GPT2BPETokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, vocab_file=None, fast=True):$/;"	m	class:HFGPT2Tokenizer
+__init__	megatron/tokenizer/tokenizer.py	/^    def __init__(self, vocab_size):$/;"	m	class:CharLevelTokenizer
+__init__	megatron/utils.py	/^    def __init__(self, data_iterator, tokenizer):$/;"	m	class:CharCounter
+__init__	megatron/utils.py	/^    def __init__(self, name):$/;"	m	class:Timer
+__init__	megatron/utils.py	/^    def __init__(self, optimizer, n=50):$/;"	m	class:OverflowMonitor
+__init__	megatron/utils.py	/^    def __init__(self, use_wandb, tensorboard_writer):$/;"	m	class:Timers
+__init__	mycode/net.py	/^    def __init__(self, input_dim, hidden_dim, output_dim):$/;"	m	class:NeuralNetwork
+__init__	tools/corpora.py	/^    def __init__($/;"	m	class:DataDownloader
+__init__	tools/preprocess_data.py	/^    def __init__(self, args):$/;"	m	class:Encoder
+__iter__	megatron/data/samplers.py	/^    def __iter__(self):$/;"	m	class:DistributedBatchSampler	file:
+__iter__	megatron/data/samplers.py	/^    def __iter__(self):$/;"	m	class:RandomSampler	file:
+__iter__	megatron/utils.py	/^    def __iter__(self):$/;"	m	class:CharCounter	file:
+__len__	megatron/data/blendable_dataset.py	/^    def __len__(self):$/;"	m	class:BlendableDataset	file:
+__len__	megatron/data/gpt2_dataset.py	/^    def __len__(self):$/;"	m	class:GPT2Dataset	file:
+__len__	megatron/data/indexed_dataset.py	/^        def __len__(self):$/;"	m	class:MMapIndexedDataset.Index	file:
+__len__	megatron/data/indexed_dataset.py	/^    def __len__(self):$/;"	m	class:IndexedDataset	file:
+__len__	megatron/data/indexed_dataset.py	/^    def __len__(self):$/;"	m	class:MMapIndexedDataset	file:
+__len__	megatron/data/samplers.py	/^    def __len__(self):$/;"	m	class:RandomSampler	file:
+__len__	megatron/tokenizer/gpt2_tokenization.py	/^    def __len__(self):$/;"	m	class:GPT2Tokenizer	file:
+__next__	megatron/utils.py	/^    def __next__(self):$/;"	m	class:CharCounter	file:
+__post_init__	megatron/neox_arguments/arguments.py	/^    def __post_init__(self):$/;"	m	class:NeoXArgs	file:
+__setstate__	megatron/data/indexed_dataset.py	/^    def __setstate__(self, state):$/;"	m	class:MMapIndexedDataset	file:
+_add_initial_accumulators	megatron/optimizers.py	/^def _add_initial_accumulators(state, grad):$/;"	f
+_batch	megatron/data/samplers.py	/^    def _batch(self, batch):$/;"	m	class:DistributedBatchSampler
+_bias_dropout_add	megatron/model/fused_bias_dropout.py	/^    def _bias_dropout_add(x, bias, residual, prob):$/;"	f	function:get_bias_dropout_add
+_build_doc_idx	megatron/data/gpt2_dataset.py	/^def _build_doc_idx(documents, num_epochs, np_rng):$/;"	f
+_build_index_mappings	megatron/data/gpt2_dataset.py	/^def _build_index_mappings($/;"	f
+_build_key_size_numel_dictionaries	megatron/mpu/data.py	/^def _build_key_size_numel_dictionaries(keys, data):$/;"	f
+_build_sample_idx	megatron/data/gpt2_dataset.py	/^def _build_sample_idx(sizes, doc_idx, seq_length, num_epochs, tokens_per_epoch):$/;"	f
+_build_shuffle_idx	megatron/data/gpt2_dataset.py	/^def _build_shuffle_idx(size, np_rng):$/;"	f
+_check_and_set	megatron/learning_rates.py	/^    def _check_and_set(self, cls_value, sd_value, name):$/;"	m	class:AnnealingLR
+_check_data_types	megatron/mpu/data.py	/^def _check_data_types(keys, data, target_dtype):$/;"	f
+_collate	eval_tasks/eval_adapter.py	/^            def _collate(x):$/;"	f	function:EvalHarnessAdapter._loglikelihood_tokens
+_collate	eval_tasks/eval_adapter.py	/^        def _collate(x):$/;"	f	function:EvalHarnessAdapter.greedy_until
+_compute_sparse_update	megatron/optimizers.py	/^def _compute_sparse_update(beta, acc, grad_values, grad_indices):$/;"	f
+_compute_update	megatron/optimizers.py	/^def _compute_update(beta, acc_list, grad):$/;"	f
+_do_init	megatron/data/indexed_dataset.py	/^    def _do_init(self, path, skip_warmup):$/;"	m	class:MMapIndexedDataset
+_download_file	eval_tasks/eval_adapter.py	/^def _download_file(*args, **kwargs):$/;"	f
+_dp_gather	eval_tasks/eval_adapter.py	/^    def _dp_gather(self, logits):$/;"	m	class:EvalHarnessAdapter
+_dp_scatter	eval_tasks/eval_adapter.py	/^    def _dp_scatter(self, inps):$/;"	m	class:EvalHarnessAdapter
+_gather	megatron/mpu/mappings.py	/^def _gather(input_):$/;"	f
+_get	megatron/model/init_functions.py	/^    def _get(name):$/;"	f	function:get_init_methods
+_get_batch	megatron/training.py	/^def _get_batch(neox_args, tokenizer, keys, data, datatype):$/;"	f
+_get_bias_dropout	megatron/model/transformer.py	/^    def _get_bias_dropout(self):$/;"	m	class:ParallelTransformerLayer
+_get_cuda_bare_metal_version	megatron/fused_kernels/setup.py	/^def _get_cuda_bare_metal_version(cuda_dir):$/;"	f
+_get_pointers	megatron/data/indexed_dataset.py	/^                def _get_pointers(sizes):$/;"	m	class:MMapIndexedDataset.Index.writer._Writer
+_get_slopes	megatron/model/positional_embeddings.py	/^    def _get_slopes(self, n):$/;"	m	class:AliBi
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelAliBi
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelKerplePower
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelSNOPE
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelSNOPE_alibi_merge
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelSNOPE_old
+_get_slopes	megatron/mpu/layers.py	/^    def _get_slopes(self, n):$/;"	m	class:ParallelSNOPE_right
+_get_slopes	mycode/get_kernel_alpha.py	/^def _get_slopes(n):$/;"	f
+_get_slopes	mycode/kernel.py	/^def _get_slopes(n):$/;"	f
+_get_slopes	mycode/net.py	/^def _get_slopes(n):$/;"	f
+_get_slopes	mycode/slopes.py	/^def _get_slopes(n):$/;"	f
+_get_slopes	mycode/slopes_add.py	/^def _get_slopes(n):$/;"	f
+_get_slopes2	megatron/mpu/layers.py	/^    def _get_slopes2(self, n):$/;"	m	class:ParallelSNOPE_right
+_init_autoresume	megatron/initialize.py	/^def _init_autoresume(neox_args):$/;"	f
+_initialize_affine_weight_cpu	megatron/mpu/layers.py	/^def _initialize_affine_weight_cpu($/;"	f
+_initialize_affine_weight_gpu	megatron/mpu/layers.py	/^def _initialize_affine_weight_gpu(weight, init_method, partition_dim, stride=1):$/;"	f
+_initialize_distributed	megatron/initialize.py	/^def _initialize_distributed(neox_args):$/;"	f
+_is_checkpointable	megatron/model/utils.py	/^    def _is_checkpointable(self, funcs):$/;"	m	class:SequentialWrapper
+_key	megatron/optimizers.py	/^def _key(i):$/;"	f
+_logits_helper	megatron/model/gpt2_model.py	/^        def _logits_helper(embedding, lm_output):$/;"	f	function:GPT2ModelPipe.init_specs
+_loglikelihood_tokens	eval_tasks/eval_adapter.py	/^    def _loglikelihood_tokens(self, requests, disable_tqdm=False):$/;"	m	class:EvalHarnessAdapter
+_max_reduce_except_dim	megatron/optimizers.py	/^def _max_reduce_except_dim(tensor, dim):$/;"	f
+_model_call	eval_tasks/eval_adapter.py	/^    def _model_call(self, inps):$/;"	m	class:EvalHarnessAdapter
+_model_generate	eval_tasks/eval_adapter.py	/^    def _model_generate(self, context, max_length, eos_token_id):$/;"	m	class:EvalHarnessAdapter
+_num_epochs	megatron/data/gpt2_dataset.py	/^def _num_epochs(tokens_per_epoch, seq_length, num_samples):$/;"	f
+_num_gpus	tests/common.py	/^_num_gpus = None$/;"	v
+_num_tokens	megatron/data/gpt2_dataset.py	/^def _num_tokens(documents, sizes):$/;"	f
+_orthogonal	megatron/model/init_functions.py	/^def _orthogonal(tensor, gain=1):$/;"	f
+_overwrite_values	megatron/utils.py	/^    _overwrite_values = {$/;"	v
+_params_t	megatron/optimizers.py	/^    _params_t = Any$/;"	v
+_post_transformer_block	megatron/model/gpt2_model.py	/^def _post_transformer_block(args):$/;"	f
+_pre_transformer_block	megatron/model/gpt2_model.py	/^def _pre_transformer_block(args):$/;"	f
+_prepare_pytorch	mycode/t5.py	/^def _prepare_pytorch(x):$/;"	f
+_reduce	megatron/mpu/mappings.py	/^def _reduce(input_):$/;"	f
+_relative_position_bucket	megatron/mpu/layers.py	/^    def _relative_position_bucket($/;"	m	class:ParallelRelativePositionBias
+_relative_position_bucket	mycode/t5.py	/^def _relative_position_bucket(relative_position, num_buckets=4, max_distance=16):$/;"	f
+_set_cuda_rng_state	megatron/mpu/random.py	/^_set_cuda_rng_state = checkpointing._set_cuda_rng_state$/;"	v
+_set_parallel_output	megatron/model/gpt2_model.py	/^    def _set_parallel_output(self, value):$/;"	m	class:GPT2ModelPipe
+_set_random_seed	megatron/initialize.py	/^def _set_random_seed(seed):$/;"	f
+_set_use_cache	megatron/model/utils.py	/^def _set_use_cache(modules, value: bool):$/;"	f
+_snope_get_mscale	megatron/mpu/layers.py	/^    def _snope_get_mscale(self, scale=1):$/;"	m	class:ParallelSNOPE_old
+_snope_get_scaling_alibi_matrix	megatron/mpu/layers.py	/^    def _snope_get_scaling_alibi_matrix(self, diff, seq_len_k, is_norm=False):$/;"	m	class:ParallelSNOPE_old
+_split	megatron/mpu/mappings.py	/^def _split(input_):$/;"	f
+_sync_overflow	megatron/gradient_noise_scale/gradient_noise_scale.py	/^    def _sync_overflow(self, is_overflow):$/;"	m	class:GradientNoiseScale
+_update	megatron/gradient_noise_scale/gradient_noise_scale.py	/^    def _update(self):$/;"	m	class:GradientNoiseScale
+_update_accumulator	megatron/optimizers.py	/^    def _update_accumulator(beta, acc_list, update):$/;"	m	class:SM3
+_update_sparse_accumulator	megatron/optimizers.py	/^    def _update_sparse_accumulator(beta, acc, update):$/;"	m	class:SM3
+_vocab_size_with_padding	megatron/tokenizer/tokenizer.py	/^def _vocab_size_with_padding(orig_vocab_size, args):$/;"	f
+_warmup_mmap_file	megatron/data/indexed_dataset.py	/^def _warmup_mmap_file(path):$/;"	f
+_write_args_to_tensorboard	megatron/initialize.py	/^def _write_args_to_tensorboard(neox_args):$/;"	f
+_yarn_get_mscale	mycode/slopes.py	/^def _yarn_get_mscale(scale=1):$/;"	f
+a	mycode/net.py	/^a = (torch.tril(output, diagonal=0))$/;"	v
+a	mycode/ntk-parts.py	/^a = linear_ramp_mask(low, high, dim)$/;"	v
+a	mycode/slopes_add.py	/^a = -diff*alibi_slopes$/;"	v
+adapter	eval_tasks/eval_adapter.py	/^    adapter = EvalHarnessAdapter(model, forward_step_fn, neox_args, batch_size)$/;"	v
+add_item	megatron/data/indexed_dataset.py	/^    def add_item(self, tensor):$/;"	m	class:IndexedDatasetBuilder
+add_item	megatron/data/indexed_dataset.py	/^    def add_item(self, tensor):$/;"	m	class:MMapIndexedDatasetBuilder
+add_to_logging	megatron/logging.py	/^    def add_to_logging(name):$/;"	f	function:training_log
+add_tokentype_embeddings	megatron/model/word_embeddings.py	/^    def add_tokentype_embeddings(self, num_tokentypes):$/;"	m	class:Embedding
+adlr_autoresume_object	megatron/neox_arguments/neox_args.py	/^    adlr_autoresume_object = None$/;"	v	class:NeoXArgsOther
+alibi_bias	mycode/slopes_add.py	/^alibi_bias = torch.exp(a)$/;"	v
+alibi_kerple_merge1	megatron/mpu/layers.py	/^    def alibi_kerple_merge1(self, x, diff, alibi_slopes, poly_bias_a, poly_bias_p) :$/;"	m	class:ParallelSNOPE_alibi_merge
+alibi_kerple_merge2	megatron/mpu/layers.py	/^    def alibi_kerple_merge2(self, x, diff, alibi_slopes, poly_bias_a, poly_bias_p) :$/;"	m	class:ParallelSNOPE_alibi_merge
+alibi_merge	megatron/mpu/layers.py	/^    def alibi_merge(self, x, diff, alibi_slopes, poly_bias_a, poly_bias_p) :$/;"	m	class:ParallelSNOPE_alibi_merge
+alibi_slopes	mycode/slopes_add.py	/^alibi_slopes = alibi_slopes.to(torch.bfloat16)$/;"	v
+alibi_slopes	mycode/slopes_add.py	/^alibi_slopes = alibi_slopes.view(alibi_slopes.shape[0], 1, 1)$/;"	v
+alibi_slopes	mycode/slopes_add.py	/^alibi_slopes = get_slopes(12)$/;"	v
+all_config	megatron/neox_arguments/arguments.py	/^    def all_config(self) -> dict:$/;"	m	class:NeoXArgs
+all_samples	mycode/var.py	/^all_samples = [2.176338,2.160677,2.206278,2.30037,2.308078]$/;"	v
+all_samples	mycode/var.py	/^all_samples = [2.427019,2.387307,2.489495,2.323151,2.411547]$/;"	v
+all_samples	mycode/var.py	/^all_samples = all_samples * 10$/;"	v
+all_samples	mycode/var.py	/^all_samples = torch.tensor(all_samples)$/;"	v
+apply_rotary_pos_emb	megatron/model/positional_embeddings.py	/^def apply_rotary_pos_emb(q, k, cos, sin, offset: int = 0):$/;"	f
+apply_rotary_pos_emb_torch	megatron/model/positional_embeddings.py	/^def apply_rotary_pos_emb_torch($/;"	f
+args	megatron/tokenizer/train_tokenizer.py	/^    args = parse_args()$/;"	v
+args	prepare_data.py	/^    args = get_args()$/;"	v
+attention	megatron/model/transformer.py	/^    def attention($/;"	m	class:ParallelSelfAttention
+attention_mask	megatron/utils.py	/^    attention_mask = get_attn_mask($/;"	v
+author	megatron/fused_kernels/setup.py	/^    author="Sid Black & Alejandro Molina et al.",$/;"	v
+author_email	megatron/fused_kernels/setup.py	/^    author_email="alejandro.molina@aleph-alpha.de",$/;"	v
+backward	megatron/model/activations.py	/^    def backward(ctx, grad_output):$/;"	m	class:GeLUFunction
+backward	megatron/model/fused_softmax.py	/^    def backward(ctx, output_grads):$/;"	m	class:ScaledMaskedSoftmax
+backward	megatron/model/fused_softmax.py	/^    def backward(ctx, output_grads):$/;"	m	class:ScaledUpperTriangMaskedSoftmax
+backward	megatron/mpu/cross_entropy.py	/^    def backward(ctx, grad_output):$/;"	m	class:_VocabParallelCrossEntropy
+backward	megatron/mpu/mappings.py	/^    def backward(ctx, grad_output):$/;"	m	class:_CopyToModelParallelRegion
+backward	megatron/mpu/mappings.py	/^    def backward(ctx, grad_output):$/;"	m	class:_GatherFromModelParallelRegion
+backward	megatron/mpu/mappings.py	/^    def backward(ctx, grad_output):$/;"	m	class:_ReduceFromModelParallelRegion
+backward	megatron/mpu/mappings.py	/^    def backward(ctx, grad_output):$/;"	m	class:_ScatterToModelParallelRegion
+backward_step	megatron/training.py	/^def backward_step(neox_args, timers, optimizer, model, loss):$/;"	f
+base	mycode/ntk-parts.py	/^base = 10000$/;"	v
+base	mycode/rope.py	/^base=10000$/;"	v
+base_dir	tools/corpora.py	/^    def base_dir(self):$/;"	m	class:DataDownloader
+batch_context_tokens	megatron/text_generation_utils.py	/^        batch_context_tokens = batch_context_tokens.cpu().numpy().tolist()$/;"	v
+batch_is_done	megatron/text_generation_utils.py	/^        batch_is_done = is_done.cpu().numpy().tolist()$/;"	v
+batch_size	eval_tasks/eval_adapter.py	/^    def batch_size(self):$/;"	m	class:EvalHarnessAdapter
+batch_size	megatron/text_generation_utils.py	/^    batch_size = context_tokens.size(0)$/;"	v
+batch_token_generation_end_index	megatron/text_generation_utils.py	/^        batch_token_generation_end_index = ($/;"	v
+batch_token_generation_start_index	megatron/text_generation_utils.py	/^        batch_token_generation_start_index = ($/;"	v
+beta_0	mycode/ntk-parts.py	/^beta_0 = 1.25$/;"	v
+beta_1	mycode/ntk-parts.py	/^beta_1 = 0.75$/;"	v
+bias	mycode/slopes_add.py	/^bias=torch.log(0.5*alibi_bias+0.5*poly_bias)$/;"	v
+bias_dropout_add	megatron/model/fused_bias_dropout.py	/^def bias_dropout_add($/;"	f
+bias_dropout_add_fused_inference	megatron/model/fused_bias_dropout.py	/^def bias_dropout_add_fused_inference($/;"	f
+bias_dropout_add_fused_train	megatron/model/fused_bias_dropout.py	/^def bias_dropout_add_fused_train($/;"	f
+bias_gelu	megatron/model/activations.py	/^def bias_gelu(bias, y):$/;"	f
+bias_gelu_back	megatron/model/activations.py	/^def bias_gelu_back(g, bias, y):$/;"	f
+bias_gelu_impl	megatron/model/activations.py	/^bias_gelu_impl = GeLUFunction.apply$/;"	v
+binary	tests/common.py	/^binary = [True, False]$/;"	v
+bounded_product	tests/common.py	/^def bounded_product(sequence, n=None, seed=None):$/;"	f
+bpe	megatron/tokenizer/gpt2_tokenization.py	/^    def bpe(self, token):$/;"	m	class:GPT2Tokenizer
+broadcast_data	megatron/mpu/data.py	/^def broadcast_data(keys, data, datatype):$/;"	f
+broadcast_terminate_signal	megatron/text_generation_utils.py	/^def broadcast_terminate_signal(terminate_runs: int):$/;"	f
+build_blending_indices	megatron/data/helpers.cpp	/^void build_blending_indices(py::array_t<uint8_t>& dataset_index,$/;"	f
+build_blocks_mapping	megatron/data/helpers.cpp	/^py::array build_blocks_mapping(const py::array_t<int64_t>& docs_,$/;"	f
+build_blocks_mapping_impl	megatron/data/helpers.cpp	/^py::array build_blocks_mapping_impl(const py::array_t<int64_t>& docs_,$/;"	f
+build_dataset	megatron/data/data_utils.py	/^    def build_dataset(index, name):$/;"	f	function:build_train_valid_test_datasets
+build_index_mappings	megatron/data/data_utils.py	/^                    build_index_mappings=build_index_mappings,$/;"	v
+build_index_mappings	megatron/data/data_utils.py	/^        build_index_mappings=build_index_mappings,$/;"	v
+build_mapping	megatron/data/helpers.cpp	/^py::array build_mapping(const py::array_t<int64_t>& docs_,$/;"	f
+build_mapping_impl	megatron/data/helpers.cpp	/^py::array build_mapping_impl(const py::array_t<int64_t>& docs_,$/;"	f
+build_sample_idx	megatron/data/helpers.cpp	/^py::array build_sample_idx(const py::array_t<int32_t>& sizes_,$/;"	f
+build_the_dataset	megatron/data/data_utils.py	/^def build_the_dataset($/;"	f
+build_tokenizer	megatron/neox_arguments/arguments.py	/^    def build_tokenizer(self):$/;"	m	class:NeoXArgs
+build_tokenizer	megatron/tokenizer/tokenizer.py	/^def build_tokenizer(args):$/;"	f
+build_train_valid_test_data_iterators	megatron/data/data_utils.py	/^def build_train_valid_test_data_iterators(neox_args):$/;"	f
+build_train_valid_test_datasets	megatron/data/data_utils.py	/^def build_train_valid_test_datasets($/;"	f
+build_weighted_datasets	megatron/data/data_utils.py	/^def build_weighted_datasets($/;"	f
+bwd	megatron/fused_kernels/scaled_masked_softmax.cpp	/^torch::Tensor bwd(torch::Tensor const& output_grads,$/;"	f	namespace:multihead_attn::fused_softmax::scaled_masked_softmax
+bwd	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^torch::Tensor bwd(torch::Tensor const& output_grads,$/;"	f	namespace:multihead_attn::fused_softmax::scaled_upper_triang_masked_softmax
+bytes_to_unicode	megatron/tokenizer/gpt2_tokenization.py	/^def bytes_to_unicode():$/;"	f
+calculate_batch_parameters	megatron/neox_arguments/arguments.py	/^    def calculate_batch_parameters($/;"	m	class:NeoXArgs
+calculate_derived	megatron/neox_arguments/arguments.py	/^    def calculate_derived(self):$/;"	m	class:NeoXArgs
+cc_flag	megatron/fused_kernels/setup.py	/^cc_flag = []$/;"	v
+check	megatron/utils.py	/^    def check(self, skipped):$/;"	m	class:OverflowMonitor
+check_batch_parameters	megatron/neox_arguments/arguments.py	/^    def check_batch_parameters(dp_world_size, train_batch, micro_batch, grad_acc):$/;"	m	class:NeoXArgs
+check_checkpoint_args	megatron/checkpointing.py	/^def check_checkpoint_args(neox_args, checkpoint_args):$/;"	f
+check_forward_pass	megatron/checkpointing.py	/^def check_forward_pass(neox_args, model, checkpoint_logits, inference):$/;"	f
+check_index	megatron/data/indexed_dataset.py	/^    def check_index(self, i):$/;"	m	class:IndexedDataset
+checkpoint	megatron/mpu/random.py	/^checkpoint = checkpointing.checkpoint$/;"	v
+clamp	megatron/tokenizer/tokenizer.py	/^    def clamp(self, n):$/;"	m	class:CharLevelTokenizer
+clear_cache	megatron/model/gpt2_model.py	/^    def clear_cache(self):$/;"	m	class:GPT2ModelPipe
+clear_test_dirs	tests/common.py	/^def clear_test_dirs():$/;"	f
+cls	megatron/tokenizer/tokenizer.py	/^    def cls(self):$/;"	m	class:AbstractTokenizer
+cmdclass	megatron/fused_kernels/setup.py	/^    cmdclass={"build_ext": BuildExtension},$/;"	v
+cmean	mycode/var.py	/^cmean = torch.mean(all_samples)$/;"	v
+code	megatron/data/indexed_dataset.py	/^def code(dtype):$/;"	f
+common_entries	tools/inspect_checkpoints.py	/^def common_entries(*dcts):$/;"	f
+compare	tools/inspect_checkpoints.py	/^def compare(args: Namespace):$/;"	f
+compile_helper	megatron/data/data_utils.py	/^def compile_helper():$/;"	f
+concat_partitions	tools/merge_mp_partitions.py	/^    def concat_partitions(partitions_):$/;"	f	function:merge_partitions
+configure_distributed_args	megatron/neox_arguments/arguments.py	/^    def configure_distributed_args(self):$/;"	m	class:NeoXArgs
+configure_sparse_attention	megatron/model/utils.py	/^def configure_sparse_attention(neox_args, attention_type, num_attention_heads, mpu):$/;"	f
+consume_deepy_args	megatron/neox_arguments/arguments.py	/^    def consume_deepy_args(cls):$/;"	m	class:NeoXArgs
+consume_neox_args	megatron/neox_arguments/arguments.py	/^    def consume_neox_args(cls, overwrite_values=None):$/;"	m	class:NeoXArgs
+context_length	megatron/text_generation_utils.py	/^            context_length = len(context_tokens)$/;"	v
+context_tokens	megatron/text_generation_utils.py	/^                context_tokens = [eos_token_id]$/;"	v
+context_tokens	megatron/text_generation_utils.py	/^                context_tokens = neox_args.tokenizer.tokenize(raw_text)$/;"	v
+context_tokens	megatron/text_generation_utils.py	/^            context_tokens = neox_args.tokenizer.tokenize("EMPTY TEXT")$/;"	v
+context_tokens	megatron/text_generation_utils.py	/^            context_tokens=[context_tokens],$/;"	v
+context_tokens	megatron/text_generation_utils.py	/^    context_tokens = torch.cuda.LongTensor(context_tokens)$/;"	v
+convert_ids_to_tokens	megatron/tokenizer/gpt2_tokenization.py	/^    def convert_ids_to_tokens(self, ids, skip_special_tokens=False):$/;"	m	class:GPT2Tokenizer
+convert_key_value_to_command_line_arg	megatron/neox_arguments/arguments.py	/^    def convert_key_value_to_command_line_arg(k, v):$/;"	m	class:NeoXArgs
+convert_tokens_to_ids	megatron/tokenizer/gpt2_tokenization.py	/^    def convert_tokens_to_ids(self, tokens):$/;"	m	class:GPT2Tokenizer
+copy_to_model_parallel_region	megatron/mpu/mappings.py	/^def copy_to_model_parallel_region(input_):$/;"	f
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::BFloat16, 1>(c10::BFloat16* dst,$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::BFloat16, 4>(c10::BFloat16* dst,$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::Half, 1>(c10::Half* dst, const c10::Half* src)$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::Half, 4>(c10::Half* dst, const c10::Half* src)$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<uint8_t, 1>(uint8_t* dst, const uint8_t* src)$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __inline__ void copy_vector<uint8_t, 4>(uint8_t* dst, const uint8_t* src)$/;"	f	namespace:__anon1
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::BFloat16, 1>(c10::BFloat16* dst,$/;"	f	namespace:__anon2
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::BFloat16, 4>(c10::BFloat16* dst,$/;"	f	namespace:__anon2
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::Half, 1>(c10::Half* dst, const c10::Half* src)$/;"	f	namespace:__anon2
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<c10::Half, 4>(c10::Half* dst, const c10::Half* src)$/;"	f	namespace:__anon2
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<uint8_t, 1>(uint8_t* dst, const uint8_t* src)$/;"	f	namespace:__anon2
+copy_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_vector<uint8_t, 4>(uint8_t* dst, const uint8_t* src)$/;"	f	namespace:__anon2
+copy_zero_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_zero_vector<c10::BFloat16, 1>(c10::BFloat16* dst)$/;"	f	namespace:__anon2
+copy_zero_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_zero_vector<c10::BFloat16, 4>(c10::BFloat16* dst)$/;"	f	namespace:__anon2
+copy_zero_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_zero_vector<c10::Half, 1>(c10::Half* dst)$/;"	f	namespace:__anon2
+copy_zero_vector	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __inline__ void copy_zero_vector<c10::Half, 4>(c10::Half* dst)$/;"	f	namespace:__anon2
+count_gpus	tests/common.py	/^def count_gpus():$/;"	f
+create_doc_idx	megatron/data/indexed_dataset.py	/^def create_doc_idx(sizes):$/;"	f
+cross_entropy	megatron/model/gpt2_model.py	/^def cross_entropy(output, labels, _fp16=False):$/;"	f
+cuda_ext_args	megatron/fused_kernels/setup.py	/^cuda_ext_args = {"cxx": ["-O3"], "nvcc": nvcc_flags + cc_flag}$/;"	v
+cvar	mycode/var.py	/^cvar = torch.var(all_samples)$/;"	v
+data	megatron/text_generation_utils.py	/^                data = {$/;"	v
+data_dir	prepare_data.py	/^        data_dir=args.data_dir,$/;"	v
+data_file_path	megatron/data/indexed_dataset.py	/^def data_file_path(prefix_path):$/;"	f
+data_impl	megatron/data/data_utils.py	/^                    data_impl=neox_args.data_impl,$/;"	v
+data_iterator	megatron/data/samplers.py	/^    def data_iterator(self, _iter, wrap_around=False):$/;"	m	class:DistributedBatchSampler
+data_iterator	megatron/training.py	/^        data_iterator=data_iterator,$/;"	v
+data_prefix	megatron/data/data_utils.py	/^                    data_prefix=test_path,$/;"	v
+data_prefix	megatron/data/data_utils.py	/^                    data_prefix=train_path,$/;"	v
+data_prefix	megatron/data/data_utils.py	/^                    data_prefix=valid_path,$/;"	v
+dataset	megatron/data/data_utils.py	/^    dataset = GPT2Dataset($/;"	v
+dataset	megatron/data/data_utils.py	/^    dataset = None$/;"	v
+dataset_exists	megatron/data/indexed_dataset.py	/^def dataset_exists(path, impl):$/;"	f
+dataset_name	prepare_data.py	/^        dataset_name=args.dataset,$/;"	v
+datasets	generate_snope_tmp_ymls.py	/^datasets = {"github":"data\/github\/github_text_document", "arxiv":"data\/arxiv\/arxiv_text_document", "openwebtext2":"data\/openwebtext2\/openwebtext2_text_document"}$/;"	v
+datasets	generate_snope_ymls.py	/^datasets = {"github":"data\/github\/github_text_document", "arxiv":"data\/arxiv\/arxiv_text_document", "openwebtext2":"data\/openwebtext2\/openwebtext2_text_document"}$/;"	v
+datasets	generate_ymls.py	/^datasets = {"github":"data\/github\/github_text_document", "arxiv":"data\/arxiv\/arxiv_text_document", "openwebtext2":"data\/openwebtext2\/openwebtext2_text_document"}$/;"	v
+ddb	megatron/utils.py	/^def ddb(rank=0):$/;"	f
+decode	megatron/tokenizer/gpt2_tokenization.py	/^    def decode(self, tokens):$/;"	m	class:GPT2Tokenizer
+decode_token	megatron/tokenizer/tokenizer.py	/^    def decode_token(self, token: int):$/;"	m	class:CharLevelTokenizer
+deepspeed_config	megatron/neox_arguments/arguments.py	/^    def deepspeed_config(self) -> dict:$/;"	m	class:NeoXArgs
+deepspeed_main_args	deepy.py	/^deepspeed_main_args = neox_args.get_deepspeed_main_args()$/;"	v
+deepspeed_runner	megatron/neox_arguments/arguments.py	/^    def deepspeed_runner(self) -> dict:$/;"	m	class:NeoXArgs
+defaults	megatron/neox_arguments/template.py	/^    def defaults(self):$/;"	m	class:NeoXArgsTemplate
+delete_old_checkpoints	megatron/checkpointing.py	/^def delete_old_checkpoints(save_dir, n_to_keep):$/;"	f
+destroy_model_parallel	megatron/mpu/initialize.py	/^def destroy_model_parallel():$/;"	f
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:AbstractTokenizer
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:CharLevelTokenizer
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:HFGPT2Tokenizer
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:HFTokenizer
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:SentencePieceTokenizer
+detokenize	megatron/tokenizer/tokenizer.py	/^    def detokenize(self, token_ids):$/;"	m	class:_GPT2BPETokenizer
+device	eval_tasks/eval_adapter.py	/^    def device(self):$/;"	m	class:EvalHarnessAdapter
+device	megatron/utils.py	/^        device=data.device,$/;"	v
+dict_repr	tests/common.py	/^def dict_repr(d):$/;"	f
+diff	mycode/kernel.py	/^diff = my_norm()$/;"	v
+diff	mycode/slopes.py	/^diff = my_norm()$/;"	v
+diff	mycode/slopes_add.py	/^diff = diff.to(torch.bfloat16)$/;"	v
+diff	mycode/slopes_add.py	/^diff = my_norm(512)$/;"	v
+dim	mycode/ntk-parts.py	/^dim = 1024$/;"	v
+dispatch_scaled_masked_softmax_backward	megatron/fused_kernels/scaled_masked_softmax.h	/^void dispatch_scaled_masked_softmax_backward(output_t* grad_input,$/;"	f
+dispatch_scaled_masked_softmax_forward	megatron/fused_kernels/scaled_masked_softmax.h	/^void dispatch_scaled_masked_softmax_forward(output_t* dst,$/;"	f
+dispatch_scaled_upper_triang_masked_softmax_backward	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^void dispatch_scaled_upper_triang_masked_softmax_backward(output_t* grad_input,$/;"	f
+dispatch_scaled_upper_triang_masked_softmax_forward	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^void dispatch_scaled_upper_triang_masked_softmax_forward(output_t* dst,$/;"	f
+dist_init	tests/common.py	/^        def dist_init(local_rank, num_procs, *func_args, **func_kwargs):$/;"	f	function:distributed_test.dist_wrap
+dist_launcher	tests/common.py	/^        def dist_launcher(num_procs, *func_args, **func_kwargs):$/;"	f	function:distributed_test.dist_wrap
+dist_wrap	tests/common.py	/^    def dist_wrap(run_func):$/;"	f	function:distributed_test
+distributed_test	tests/common.py	/^def distributed_test(world_size=2, backend="nccl"):$/;"	f
+divide	megatron/mpu/utils.py	/^def divide(numerator, denominator):$/;"	f
+do_forward_pass	megatron/checkpointing.py	/^def do_forward_pass(neox_args, model, inference=False):$/;"	f
+doc_idx	megatron/data/indexed_dataset.py	/^        def doc_idx(self):$/;"	m	class:MMapIndexedDataset.Index
+doc_idx	megatron/data/indexed_dataset.py	/^    def doc_idx(self):$/;"	m	class:MMapIndexedDataset
+docs	configs/gen_docs.py	/^    docs = get_docs(neox_args)$/;"	v
+documents	megatron/data/data_utils.py	/^    documents = np.arange(start=0, stop=total_num_of_documents, step=1, dtype=np.int32)$/;"	v
+download	tools/corpora.py	/^    def download(self):$/;"	m	class:DataDownloader
+dtype	megatron/data/indexed_dataset.py	/^        def dtype(self):$/;"	m	class:MMapIndexedDataset.Index
+dtypes	megatron/data/indexed_dataset.py	/^dtypes = {$/;"	v
+dvalue	mycode/print2.py	/^        dvalue = float(dvalue.split(':')[1])$/;"	v
+elapsed	megatron/utils.py	/^    def elapsed(self, reset=True):$/;"	m	class:Timer
+element_sizes	megatron/data/indexed_dataset.py	/^    element_sizes = {$/;"	v	class:IndexedDatasetBuilder
+ema	megatron/gradient_noise_scale/gradient_noise_scale.py	/^def ema(avg, beta, yi, i):$/;"	f
+emb	mycode/rope.py	/^emb = torch.cat((freqs, freqs), dim=-1)$/;"	v
+enable_logging	megatron/neox_arguments/arguments.py	/^    def enable_logging(self):$/;"	m	class:NeoXArgs
+encode	megatron/tokenizer/gpt2_tokenization.py	/^    def encode(self, text):$/;"	m	class:GPT2Tokenizer
+encode	tools/preprocess_data.py	/^    def encode(self, text):$/;"	m	class:Encoder
+end_document	megatron/data/indexed_dataset.py	/^    def end_document(self):$/;"	m	class:IndexedDatasetBuilder
+end_document	megatron/data/indexed_dataset.py	/^    def end_document(self):$/;"	m	class:MMapIndexedDatasetBuilder
+ensure_directory_exists	megatron/checkpointing.py	/^def ensure_directory_exists(filename):$/;"	f
+ensure_divisibility	megatron/mpu/utils.py	/^def ensure_divisibility(numerator, denominator):$/;"	f
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:AbstractTokenizer
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:CharLevelTokenizer
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:HFGPT2Tokenizer
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:HFTokenizer
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:SentencePieceTokenizer
+eod	megatron/tokenizer/tokenizer.py	/^    def eod(self):$/;"	m	class:_GPT2BPETokenizer
+eos_token_id	megatron/text_generation_utils.py	/^            eos_token_id=eos_token_id,$/;"	v
+eos_token_id	megatron/text_generation_utils.py	/^        eos_token_id=eos_token_id,$/;"	v
+eos_token_id	megatron/text_generation_utils.py	/^    eos_token_id = eos_token_id or neox_args.tokenizer.eod$/;"	v
+eot_token_id	eval_tasks/eval_adapter.py	/^    def eot_token_id(self):$/;"	m	class:EvalHarnessAdapter
+erf_gelu	megatron/model/activations.py	/^def erf_gelu(x):$/;"	f
+evaluate	megatron/training.py	/^def evaluate($/;"	f
+evaluate_and_print_results	megatron/training.py	/^def evaluate_and_print_results($/;"	f
+exec_func	megatron/model/utils.py	/^            def exec_func(*inputs):$/;"	f	function:SequentialWrapper.forward.exec_range_func
+exec_range_func	megatron/model/utils.py	/^        def exec_range_func(start, end):$/;"	f	function:SequentialWrapper.forward
+exists	megatron/data/indexed_dataset.py	/^    def exists(path):$/;"	m	class:IndexedDataset
+exists	megatron/data/indexed_dataset.py	/^    def exists(path):$/;"	m	class:MMapIndexedDataset
+exists	megatron/model/utils.py	/^def exists(x):$/;"	f
+exists	tools/corpora.py	/^    def exists(self):$/;"	m	class:DataDownloader
+exp_kernel_slopes	megatron/mpu/layers.py	/^    def exp_kernel_slopes(self, a, x):$/;"	m	class:ParallelSNOPE
+expand_attention_types	megatron/utils.py	/^def expand_attention_types(attention_config, num_layers):$/;"	f
+ext_modules	megatron/fused_kernels/setup.py	/^    ext_modules=[$/;"	v
+extra_compile_args	megatron/fused_kernels/setup.py	/^            extra_compile_args=cuda_ext_args,$/;"	v
+f_1	mycode/fit.py	/^def f_1(x, A):$/;"	f
+factor	mycode/print.py	/^            factor = (sep[2])$/;"	v
+factor	mycode/print.py	/^factor = ""$/;"	v
+factor	mycode/print2.py	/^factor = ""$/;"	v
+filter_logits	megatron/text_generation_utils.py	/^def filter_logits(logits, top_k=0, top_p=0.0, filter_value=-float("Inf")):$/;"	f
+finalize	megatron/data/indexed_dataset.py	/^    def finalize(self, index_file):$/;"	m	class:IndexedDatasetBuilder
+finalize	megatron/data/indexed_dataset.py	/^    def finalize(self, index_file):$/;"	m	class:MMapIndexedDatasetBuilder
+find_correction_factor	mycode/ntk-parts.py	/^def find_correction_factor(num_rotations, dim, base=10000, max_position_embeddings=2048):$/;"	f
+find_correction_range	mycode/ntk-parts.py	/^def find_correction_range(low_rot, high_rot, dim, base=10000, max_position_embeddings=2048):$/;"	f
+finish_mpu_init	megatron/initialize.py	/^    def finish_mpu_init():$/;"	f	function:initialize_megatron
+first_token_index_to_generate	megatron/text_generation_utils.py	/^    first_token_index_to_generate = token_index_to_generate$/;"	v
+flatten_grads	megatron/gradient_noise_scale/gradient_noise_scale.py	/^    def flatten_grads(self):$/;"	m	class:GradientNoiseScale
+flush	megatron/logging.py	/^    def flush(self):$/;"	m	class:Tee
+fn	eval_tasks/eval_adapter.py	/^fn = best_download.download_file$/;"	v
+forward	megatron/model/activations.py	/^    def forward(ctx, input, bias):$/;"	m	class:GeLUFunction
+forward	megatron/model/activations.py	/^    def forward(self, x, bias=None):$/;"	m	class:GEGLU
+forward	megatron/model/fused_softmax.py	/^    def forward(ctx, inputs, mask, scale):$/;"	m	class:ScaledMaskedSoftmax
+forward	megatron/model/fused_softmax.py	/^    def forward(ctx, inputs, scale):$/;"	m	class:ScaledUpperTriangMaskedSoftmax
+forward	megatron/model/fused_softmax.py	/^    def forward(self, input, mask):$/;"	m	class:FusedScaleMaskSoftmax
+forward	megatron/model/gmlp.py	/^    def forward(self, args):$/;"	m	class:GMLPBlock
+forward	megatron/model/gmlp.py	/^    def forward(self, x, attention_mask):$/;"	m	class:SpatialGatingUnit
+forward	megatron/model/gmlp.py	/^    def forward(self, x, attention_mask):$/;"	m	class:TinyAttention
+forward	megatron/model/norms.py	/^    def forward(self, x):$/;"	m	class:RMSNorm
+forward	megatron/model/norms.py	/^    def forward(self, x):$/;"	m	class:ScaleNorm
+forward	megatron/model/positional_embeddings.py	/^    def forward(self, x):$/;"	m	class:AliBi
+forward	megatron/model/positional_embeddings.py	/^    def forward(self, x, seq_dim=1):$/;"	m	class:SinusoidalPositionalEmbedding
+forward	megatron/model/positional_embeddings.py	/^    def forward(self, x, seq_dim=1, seq_len=None):$/;"	m	class:RotaryEmbedding
+forward	megatron/model/transformer.py	/^    def forward(self, args):$/;"	m	class:NormPipe
+forward	megatron/model/transformer.py	/^    def forward(self, args):$/;"	m	class:ParallelLinearPipe
+forward	megatron/model/transformer.py	/^    def forward(self, args):$/;"	m	class:ParallelTransformerLayerPipe
+forward	megatron/model/transformer.py	/^    def forward(self, hidden_states):$/;"	m	class:ParallelLinear
+forward	megatron/model/transformer.py	/^    def forward(self, hidden_states):$/;"	m	class:ParallelMLP
+forward	megatron/model/transformer.py	/^    def forward(self, hidden_states, attention_mask, layer_past=None):$/;"	m	class:ParallelSelfAttention
+forward	megatron/model/transformer.py	/^    def forward(self, x, attention_mask, layer_past=None):$/;"	m	class:ParallelTransformerLayer
+forward	megatron/model/utils.py	/^    def forward(self, forward_input):$/;"	m	class:SequentialWrapper
+forward	megatron/model/utils.py	/^    def forward(self, x):$/;"	m	class:Lambda
+forward	megatron/model/word_embeddings.py	/^    def forward(self, args):$/;"	m	class:EmbeddingPipe
+forward	megatron/model/word_embeddings.py	/^    def forward(self, args: tuple):$/;"	m	class:SoftEmbedding
+forward	megatron/model/word_embeddings.py	/^    def forward(self, input_ids, position_ids, tokentype_ids=None):$/;"	m	class:Embedding
+forward	megatron/mpu/cross_entropy.py	/^    def forward(ctx, vocab_parallel_logits, target):$/;"	m	class:_VocabParallelCrossEntropy
+forward	megatron/mpu/layers.py	/^    def forward(self, input_):$/;"	m	class:ColumnParallelLinear
+forward	megatron/mpu/layers.py	/^    def forward(self, input_):$/;"	m	class:RowParallelLinear
+forward	megatron/mpu/layers.py	/^    def forward(self, input_):$/;"	m	class:VocabParallelEmbedding
+forward	megatron/mpu/layers.py	/^    def forward(self, q_len, k_len):$/;"	m	class:ParallelRelativePositionBias
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelAliBi
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelAliBiLearning
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelKerpleLog
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelKerplePower
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelSNOPE
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelSNOPE_alibi_merge
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelSNOPE_old
+forward	megatron/mpu/layers.py	/^    def forward(self, x):$/;"	m	class:ParallelSNOPE_right
+forward	megatron/mpu/mappings.py	/^    def forward(ctx, input_):$/;"	m	class:_CopyToModelParallelRegion
+forward	megatron/mpu/mappings.py	/^    def forward(ctx, input_):$/;"	m	class:_GatherFromModelParallelRegion
+forward	megatron/mpu/mappings.py	/^    def forward(ctx, input_):$/;"	m	class:_ReduceFromModelParallelRegion
+forward	megatron/mpu/mappings.py	/^    def forward(ctx, input_):$/;"	m	class:_ScatterToModelParallelRegion
+forward	mycode/net.py	/^    def forward(self, x):$/;"	m	class:NeuralNetwork
+forward_fused_softmax	megatron/model/fused_softmax.py	/^    def forward_fused_softmax(self, input, mask):$/;"	m	class:FusedScaleMaskSoftmax
+forward_model	megatron/text_generation_utils.py	/^def forward_model(model, model_inputs, is_pipe_parallel=False) -> torch.Tensor:$/;"	f
+forward_step	megatron/training.py	/^def forward_step(data_iterator, model, neox_args, timers, return_logits=False):$/;"	f
+forward_step_fn	megatron/training.py	/^        forward_step_fn=forward_step_func,$/;"	v
+forward_torch_softmax	megatron/model/fused_softmax.py	/^    def forward_torch_softmax(self, input, mask):$/;"	m	class:FusedScaleMaskSoftmax
+freqs	mycode/rope.py	/^freqs = torch.einsum("i,j->ij", t, inv_freq)$/;"	v
+from_dict	megatron/neox_arguments/arguments.py	/^    def from_dict(cls, args_dict: Dict):$/;"	m	class:NeoXArgs
+from_pretrained	megatron/tokenizer/gpt2_tokenization.py	/^    def from_pretrained($/;"	m	class:GPT2Tokenizer
+from_ymls	megatron/neox_arguments/arguments.py	/^    def from_ymls(cls, paths_to_yml_files: List[str], overwrite_values: Dict = None):$/;"	m	class:NeoXArgs
+ftfy	tools/corpora.py	/^    def ftfy(self):$/;"	m	class:DataDownloader
+fused_softmax	megatron/fused_kernels/scaled_masked_softmax.cpp	/^namespace fused_softmax {$/;"	n	namespace:multihead_attn	file:
+fused_softmax	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^namespace fused_softmax {$/;"	n	namespace:multihead_attn	file:
+fwd	megatron/fused_kernels/scaled_masked_softmax.cpp	/^torch::Tensor fwd(torch::Tensor const& input, torch::Tensor const& mask, float scale_factor)$/;"	f	namespace:multihead_attn::fused_softmax::scaled_masked_softmax
+fwd	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^torch::Tensor fwd(torch::Tensor const& input, float scale_factor)$/;"	f	namespace:multihead_attn::fused_softmax::scaled_upper_triang_masked_softmax
+gamma_0	mycode/ntk-parts.py	/^gamma_0 = 16$/;"	v
+gamma_1	mycode/ntk-parts.py	/^gamma_1 = 2$/;"	v
+gather_from_model_parallel_region	megatron/mpu/mappings.py	/^def gather_from_model_parallel_region(input_):$/;"	f
+gaussian_kernel	mycode/get_kernel_alpha.py	/^def gaussian_kernel(diff):$/;"	f
+gaussian_kernel	mycode/kernel.py	/^def gaussian_kernel(diff):$/;"	f
+gaussian_kernel_slopes	megatron/mpu/layers.py	/^    def gaussian_kernel_slopes(self, a, x):$/;"	m	class:ParallelSNOPE
+gaussian_kernel_slopes	megatron/mpu/layers.py	/^    def gaussian_kernel_slopes(self, a, x):$/;"	m	class:ParallelSNOPE_right
+general	megatron/model/fused_softmax.py	/^    general = 2  # general mask$/;"	v	class:SoftmaxFusionTypes
+generate_samples_from_prompt	megatron/text_generation_utils.py	/^def generate_samples_from_prompt($/;"	f
+generate_samples_input_from_file	megatron/text_generation_utils.py	/^def generate_samples_input_from_file($/;"	f
+generate_samples_interactive	megatron/text_generation_utils.py	/^def generate_samples_interactive($/;"	f
+generate_samples_unconditional	megatron/text_generation_utils.py	/^def generate_samples_unconditional($/;"	f
+generated_text	megatron/text_generation_utils.py	/^                    generated_text = None$/;"	v
+generated_text	megatron/text_generation_utils.py	/^                    generated_text = neox_args.tokenizer.detokenize(generated_tokens)$/;"	v
+generated_text	megatron/text_generation_utils.py	/^                generated_text = None$/;"	v
+generated_texts	megatron/text_generation_utils.py	/^    generated_texts = []$/;"	v
+generated_texts	megatron/text_generation_utils.py	/^    generated_texts = generate_samples_from_prompt($/;"	v
+generated_token_logits	megatron/text_generation_utils.py	/^                    generated_token_logits = ($/;"	v
+generated_token_logits	megatron/text_generation_utils.py	/^                    generated_token_logits = filter_logits($/;"	v
+generated_token_logits	megatron/text_generation_utils.py	/^                    generated_token_logits = generated_token_logits.float()$/;"	v
+generated_token_logits	megatron/text_generation_utils.py	/^                    generated_token_logits = logits[$/;"	v
+generated_tokens	megatron/text_generation_utils.py	/^                    generated_tokens = torch.argmax($/;"	v
+generated_tokens	megatron/text_generation_utils.py	/^                    generated_tokens = torch.multinomial($/;"	v
+generated_tokens	megatron/text_generation_utils.py	/^                generated_tokens = ($/;"	v
+generated_tokens	megatron/text_generation_utils.py	/^                generated_tokens = []$/;"	v
+generated_tokens	megatron/text_generation_utils.py	/^                generated_tokens = tokens[start_index : end_index + 1]$/;"	v
+generation_logits	megatron/text_generation_utils.py	/^        generation_logits = ($/;"	v
+get	megatron/data/indexed_dataset.py	/^    def get(self, idx, offset=0, length=None):$/;"	m	class:MMapIndexedDataset
+get_activation	megatron/model/activations.py	/^def get_activation(neox_args):$/;"	f
+get_args	prepare_data.py	/^def get_args():$/;"	f
+get_args	tools/preprocess_data.py	/^def get_args():$/;"	f
+get_attn_mask	megatron/utils.py	/^def get_attn_mask(seq_length, device):$/;"	f
+get_attribute	tools/inspect_checkpoints.py	/^def get_attribute(obj: object, name: str) -> object:$/;"	f
+get_batch	megatron/text_generation_utils.py	/^def get_batch(neox_args, context_tokens: torch.Tensor):$/;"	f
+get_batch	megatron/training.py	/^def get_batch(neox_args, data_iterator):$/;"	f
+get_batch_per_block	megatron/fused_kernels/scaled_masked_softmax.cpp	/^int get_batch_per_block(int query_seq_len, int key_seq_len, int batches, int attn_heads)$/;"	f	namespace:multihead_attn::fused_softmax::scaled_masked_softmax
+get_batch_per_block	megatron/fused_kernels/scaled_masked_softmax.h	/^int get_batch_per_block(int query_seq_len, int key_seq_len, int batches, int attn_heads)$/;"	f
+get_batch_per_block	megatron/model/fused_softmax.py	/^    def get_batch_per_block(sq, sk, b, np):$/;"	m	class:FusedScaleMaskSoftmax
+get_batch_pipe	megatron/training.py	/^def get_batch_pipe(data, neox_args):$/;"	f
+get_bias_dropout_add	megatron/model/fused_bias_dropout.py	/^def get_bias_dropout_add(training):$/;"	f
+get_checkpoint_name	megatron/checkpointing.py	/^def get_checkpoint_name(checkpoints_path, iteration, release=False, mp_rank=None):$/;"	f
+get_config_directory	tests/common.py	/^def get_config_directory():$/;"	f
+get_configs_with_path	tests/common.py	/^def get_configs_with_path(configs):$/;"	f
+get_cuda_rng_tracker	megatron/mpu/random.py	/^get_cuda_rng_tracker = checkpointing.get_cuda_rng_tracker$/;"	v
+get_data_parallel_group	megatron/mpu/initialize.py	/^def get_data_parallel_group():$/;"	f
+get_data_parallel_rank	megatron/mpu/initialize.py	/^def get_data_parallel_rank():$/;"	f
+get_data_parallel_src_rank	megatron/mpu/initialize.py	/^def get_data_parallel_src_rank():$/;"	f
+get_data_parallel_world_size	megatron/mpu/initialize.py	/^def get_data_parallel_world_size():$/;"	f
+get_deepspeed_main_args	megatron/neox_arguments/arguments.py	/^    def get_deepspeed_main_args(self):$/;"	m	class:NeoXArgs
+get_doc_idx	megatron/data/indexed_dataset.py	/^    def get_doc_idx(self):$/;"	m	class:MMapIndexedDataset
+get_docs	configs/gen_docs.py	/^def get_docs(module):$/;"	f
+get_files	tools/inspect_checkpoints.py	/^def get_files(pth):$/;"	f
+get_flops	megatron/logging.py	/^def get_flops(neox_args, model, iter_time_s):$/;"	f
+get_fp32_allreduce	megatron/mpu/initialize.py	/^def get_fp32_allreduce():$/;"	f
+get_fusion_type	megatron/model/utils.py	/^def get_fusion_type(neox_args):$/;"	f
+get_gaussian_alpha	mycode/get_kernel_alpha.py	/^def get_gaussian_alpha() :$/;"	f
+get_gaussian_kernel_alpha	mycode/get_kernel_alpha.py	/^def get_gaussian_kernel_alpha(diff):$/;"	f
+get_git_commit_hash	megatron/neox_arguments/neox_args.py	/^def get_git_commit_hash():$/;"	f
+get_heads_range	megatron/mpu/layers.py	/^    def get_heads_range(global_n_heads, rank, world_size):$/;"	m	class:ParallelRelativePositionBias
+get_init_methods	megatron/model/init_functions.py	/^def get_init_methods(args):$/;"	f
+get_io_parallel_group	megatron/mpu/initialize.py	/^def get_io_parallel_group():$/;"	f
+get_learning_rate_scheduler	megatron/training.py	/^def get_learning_rate_scheduler(optimizer, neox_args):$/;"	f
+get_lr	megatron/learning_rates.py	/^    def get_lr(self):$/;"	m	class:AnnealingLR
+get_ltor_masks_and_position_ids	megatron/utils.py	/^def get_ltor_masks_and_position_ids($/;"	f
+get_master_port	tests/common.py	/^def get_master_port():$/;"	f
+get_model	megatron/training.py	/^def get_model(neox_args, use_cache=False):$/;"	f
+get_model	tools/merge_mp_partitions.py	/^def get_model(model_type):$/;"	f
+get_model_parallel_group	megatron/mpu/initialize.py	/^def get_model_parallel_group():$/;"	f
+get_model_parallel_rank	megatron/mpu/initialize.py	/^def get_model_parallel_rank():$/;"	f
+get_model_parallel_src_rank	megatron/mpu/initialize.py	/^def get_model_parallel_src_rank():$/;"	f
+get_model_parallel_world_size	megatron/mpu/initialize.py	/^def get_model_parallel_world_size():$/;"	f
+get_mp_merge_args	tools/merge_mp_partitions.py	/^def get_mp_merge_args(parser):$/;"	f
+get_noise_scale_logger	megatron/utils.py	/^def get_noise_scale_logger(neox_args):$/;"	f
+get_norm	megatron/model/norms.py	/^def get_norm(neox_args):$/;"	f
+get_normalized_weights_and_num_samples	megatron/data/data_utils.py	/^def get_normalized_weights_and_num_samples($/;"	f
+get_optimizer	megatron/training.py	/^def get_optimizer(model, neox_args):$/;"	f
+get_pairs	megatron/tokenizer/gpt2_tokenization.py	/^def get_pairs(word):$/;"	f
+get_parallel_checkpoint_name	tools/merge_mp_partitions.py	/^def get_parallel_checkpoint_name(path):$/;"	f
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelAliBiLearning.__init__
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelKerpleLog.__init__
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelKerplePower.__init__
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelSNOPE.__init__
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelSNOPE_old.__init__
+get_parameter	megatron/mpu/layers.py	/^        def get_parameter(scale, init_method):$/;"	f	function:ParallelSNOPE_right.__init__
+get_parameter	mycode/t5.py	/^def get_parameter(scale, init_method):$/;"	f
+get_params_for_weight_decay_optimization	megatron/model/utils.py	/^def get_params_for_weight_decay_optimization(module, neox_args):$/;"	f
+get_parent_class_value_dict	megatron/neox_arguments/arguments.py	/^    def get_parent_class_value_dict($/;"	m	class:NeoXArgs
+get_pipe_parallel_group	megatron/mpu/initialize.py	/^def get_pipe_parallel_group():$/;"	f
+get_pipe_parallel_rank	megatron/mpu/initialize.py	/^def get_pipe_parallel_rank():$/;"	f
+get_pipe_parallel_world_size	megatron/mpu/initialize.py	/^def get_pipe_parallel_world_size():$/;"	f
+get_root_directory	tests/common.py	/^def get_root_directory():$/;"	f
+get_scale_factor	mycode/slopes.py	/^def get_scale_factor(target_seq_len=1024):$/;"	f
+get_selection	tools/inspect_checkpoints.py	/^def get_selection(filename, args):$/;"	f
+get_shared_fnames	tools/inspect_checkpoints.py	/^def get_shared_fnames(files_1, files_2):$/;"	f
+get_slopes	mycode/get_kernel_alpha.py	/^def get_slopes(num_heads=8) :$/;"	f
+get_slopes	mycode/kernel.py	/^def get_slopes(num_heads=8) :$/;"	f
+get_slopes	mycode/net.py	/^def get_slopes(num_heads=8) :$/;"	f
+get_slopes	mycode/slopes.py	/^def get_slopes(num_heads=8) :$/;"	f
+get_slopes	mycode/slopes_add.py	/^def get_slopes(num_heads=8) :$/;"	f
+get_slopes_power_of_2	megatron/model/positional_embeddings.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:AliBi._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelAliBi._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelKerplePower._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelSNOPE._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelSNOPE_alibi_merge._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelSNOPE_old._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelSNOPE_right._get_slopes
+get_slopes_power_of_2	megatron/mpu/layers.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:ParallelSNOPE_right._get_slopes2
+get_slopes_power_of_2	mycode/get_kernel_alpha.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:_get_slopes
+get_slopes_power_of_2	mycode/kernel.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:_get_slopes
+get_slopes_power_of_2	mycode/net.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:_get_slopes
+get_slopes_power_of_2	mycode/slopes.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:_get_slopes
+get_slopes_power_of_2	mycode/slopes.py	/^def get_slopes_power_of_2(n):$/;"	f
+get_slopes_power_of_2	mycode/slopes_add.py	/^        def get_slopes_power_of_2(n):$/;"	f	function:_get_slopes
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelAliBi.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelAliBiLearning.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelKerpleLog.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelKerplePower.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelSNOPE.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelSNOPE_alibi_merge.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelSNOPE_old.stats
+get_stats	megatron/mpu/layers.py	/^        def get_stats(name, obj):$/;"	f	function:ParallelSNOPE_right.stats
+get_stats	mycode/t5.py	/^def get_stats(name, obj):$/;"	f
+get_tanh_alpha	mycode/get_kernel_alpha.py	/^def get_tanh_alpha() :$/;"	f
+get_target_sample_len	megatron/data/helpers.cpp	/^inline int32_t get_target_sample_len(const int32_t short_seq_ratio,$/;"	f
+get_test_configs_with_path	tests/common.py	/^def get_test_configs_with_path(configs: list):$/;"	f
+get_topology	megatron/mpu/initialize.py	/^def get_topology():$/;"	f
+get_total_params	megatron/utils.py	/^def get_total_params(model):$/;"	f
+get_train_valid_test_split_	megatron/data/data_utils.py	/^def get_train_valid_test_split_(splits_string, size):$/;"	f
+get_wandb_api_key	megatron/utils.py	/^def get_wandb_api_key(neox_args):$/;"	f
+get_xdist_worker_id	tests/common.py	/^def get_xdist_worker_id():$/;"	f
+gpt2_attention_mask_func	megatron/model/gpt2_model.py	/^def gpt2_attention_mask_func(attention_scores, ltor_mask):$/;"	f
+greedy_until	eval_tasks/eval_adapter.py	/^    def greedy_until(self, requests):$/;"	m	class:EvalHarnessAdapter
+group	megatron/text_generation_utils.py	/^                    group=mpu.get_pipe_parallel_group(),$/;"	v
+group	megatron/text_generation_utils.py	/^        group=mpu.get_model_parallel_group(),$/;"	v
+hidden_dim	mycode/net.py	/^hidden_dim = 16$/;"	v
+human_readable_flops	megatron/logging.py	/^def human_readable_flops(num):$/;"	f
+i	mycode/print2.py	/^i=0$/;"	v
+include_package_data	megatron/fused_kernels/setup.py	/^    include_package_data=False,$/;"	v
+index_file_path	megatron/data/indexed_dataset.py	/^def index_file_path(prefix_path):$/;"	f
+indexed_dataset	megatron/data/data_utils.py	/^    indexed_dataset = make_indexed_dataset(data_prefix, data_impl, skip_warmup)$/;"	v
+infer_dataset_impl	megatron/data/indexed_dataset.py	/^def infer_dataset_impl(path):$/;"	f
+inference_mode	megatron/model/gpt2_model.py	/^    def inference_mode(self, use_cache=True):$/;"	m	class:GPT2ModelPipe
+inference_mode	megatron/model/utils.py	/^    def inference_mode(self, use_cache=True):$/;"	m	class:SequentialWrapper
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:init_method_normal
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:orthogonal_init_method
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:scaled_init_method_normal
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:small_init_init_method
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:wang_init_method
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:xavier_normal_init_method
+init_	megatron/model/init_functions.py	/^    def init_(tensor):$/;"	f	function:xavier_uniform_init_method
+init_method_normal	megatron/model/init_functions.py	/^def init_method_normal(sigma):$/;"	f
+init_specs	megatron/model/gpt2_model.py	/^    def init_specs(self):$/;"	m	class:GPT2ModelPipe
+init_wandb	megatron/utils.py	/^def init_wandb(neox_args):$/;"	f
+initialize_embedding	megatron/model/word_embeddings.py	/^    def initialize_embedding(self):$/;"	m	class:SoftEmbedding
+initialize_megatron	megatron/initialize.py	/^def initialize_megatron(neox_args, allow_no_cuda=False):$/;"	f
+initialize_model_parallel	megatron/mpu/initialize.py	/^def initialize_model_parallel(model_parallel_size, topology=None, fp32_allreduce=False):$/;"	f
+initialize_tensorboard_writer	megatron/neox_arguments/arguments.py	/^    def initialize_tensorboard_writer(self):$/;"	m	class:NeoXArgs
+initializer	tools/preprocess_data.py	/^    def initializer(self):$/;"	m	class:Encoder
+input_count	megatron/text_generation_utils.py	/^    input_count = len(text)$/;"	v
+input_data	mycode/net.py	/^input_data = input_data.view(seq_len*seq_len, 1)$/;"	v
+input_data	mycode/net.py	/^input_data = my_norm(seq_len)$/;"	v
+input_dim	mycode/net.py	/^input_dim = 1 $/;"	v
+input_pos	megatron/text_generation_utils.py	/^    input_pos = 0$/;"	v
+insert_layers	megatron/model/gpt2_model.py	/^    def insert_layers($/;"	m	class:GPT2ModelPipe
+inv_freq	mycode/rope.py	/^inv_freq = 1.0 \/ (base ** (torch.arange(0, 128, 2).float() \/ 8))$/;"	v
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:AbstractTokenizer
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:CharLevelTokenizer
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:HFGPT2Tokenizer
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:HFTokenizer
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:SentencePieceTokenizer
+inv_vocab	megatron/tokenizer/tokenizer.py	/^    def inv_vocab(self):$/;"	m	class:_GPT2BPETokenizer
+is_bnb_available	megatron/utils.py	/^def is_bnb_available():$/;"	f
+is_kernel_available	megatron/model/fused_softmax.py	/^    def is_kernel_available(self, mask, b, np, sq, sk):$/;"	m	class:FusedScaleMaskSoftmax
+is_local_main	megatron/utils.py	/^def is_local_main():$/;"	f
+is_mp_rank_0	megatron/utils.py	/^def is_mp_rank_0():$/;"	f
+is_unitialized	megatron/mpu/initialize.py	/^def is_unitialized():$/;"	f
+iteration	megatron/utils.py	/^        iteration=neox_args.iteration,$/;"	v
+json_iterator	megatron/tokenizer/train_tokenizer.py	/^def json_iterator(input_dir, text_key="text"):$/;"	f
+k3	megatron/training.py	/^                k3 = "_".join([k, k2])$/;"	v
+kernel_merge	megatron/mpu/layers.py	/^    def kernel_merge(self, a, x):$/;"	m	class:ParallelSNOPE
+last_token_index_to_generate	megatron/text_generation_utils.py	/^    last_token_index_to_generate = min($/;"	v
+layernorm_cuda_args	megatron/fused_kernels/setup.py	/^layernorm_cuda_args = {$/;"	v
+length	megatron/training.py	/^    length = len(string) + 1$/;"	v
+lengths	generate_snope_tmp_ymls.py	/^lengths = [512, 1024, 2048, 4096, 8192, 16384]$/;"	v
+lengths	generate_snope_ymls.py	/^lengths = [512, 1024, 2048, 4096, 8192, 16384]$/;"	v
+lengths	generate_ymls.py	/^lengths = [512, 1024, 2048, 4096, 8192, 16384]$/;"	v
+li	mycode/a.py	/^li = [0.0025616027933590465 for i in range(12)]$/;"	v
+li	mycode/a.py	/^li = [0.12872659589188087 for i in range(12)]$/;"	v
+li	mycode/a.py	/^li = [0.2573739082269178 for i in range(12)]$/;"	v
+linear_kernel	megatron/mpu/layers.py	/^    def linear_kernel():$/;"	m	class:ParallelSNOPE_right
+linear_kernel	mycode/get_kernel_alpha.py	/^def linear_kernel():$/;"	f
+linear_kernel	mycode/kernel.py	/^def linear_kernel():$/;"	f
+linear_ramp_mask	mycode/ntk-parts.py	/^def linear_ramp_mask(min, max, dim):$/;"	f
+load_checkpoint	megatron/checkpointing.py	/^def load_checkpoint($/;"	f
+load_fused_kernels	megatron/fused_kernels/__init__.py	/^def load_fused_kernels():$/;"	f
+load_jsonl	megatron/tokenizer/train_tokenizer.py	/^def load_jsonl(input_path, quiet=True) -> list:$/;"	f
+load_state_dict	megatron/learning_rates.py	/^    def load_state_dict(self, sd):$/;"	m	class:AnnealingLR
+local_rank	megatron/utils.py	/^def local_rank():$/;"	f
+log	megatron/utils.py	/^    def log(self, names, normalizer=1.0, reset=True):$/;"	m	class:Timers
+log2_ceil	megatron/fused_kernels/scaled_masked_softmax.h	/^int log2_ceil(int value)$/;"	f	namespace:__anon1
+log2_ceil	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^int log2_ceil(int value)$/;"	f	namespace:__anon2
+logger	megatron/tokenizer/gpt2_tokenization.py	/^logger = logging.getLogger(__name__)$/;"	v
+logits	megatron/text_generation_utils.py	/^                logits = forward_model(model, model_inputs, neox_args.is_pipe_parallel)$/;"	v
+loss_mask	megatron/utils.py	/^    loss_mask = torch.ones(data.size(), dtype=torch.float, device=data.device)$/;"	v
+madgrad_wd	megatron/optimizers.py	/^class madgrad_wd(torch.optim.Optimizer):$/;"	c
+main	evaluate.py	/^def main(): $/;"	f
+main	generate.py	/^def main():$/;"	f
+main	tools/inspect_checkpoints.py	/^def main():$/;"	f
+main	tools/merge20b.py	/^def main():$/;"	f
+main	tools/merge_mp_partitions.py	/^def main():$/;"	f
+main	tools/preprocess_data.py	/^def main():$/;"	f
+make_builder	megatron/data/indexed_dataset.py	/^def make_builder(out_file, impl, vocab_size=None):$/;"	f
+make_data_loader	megatron/data/data_utils.py	/^def make_data_loader(dataset, neox_args):$/;"	f
+make_dataset	megatron/data/indexed_dataset.py	/^def make_dataset(path, impl, skip_warmup=False):$/;"	f
+make_sparse	megatron/optimizers.py	/^                    def make_sparse(values):$/;"	f	function:SM3.step
+mask	megatron/tokenizer/tokenizer.py	/^    def mask(self):$/;"	m	class:AbstractTokenizer
+master_weight	megatron/mpu/layers.py	/^    master_weight = master_weight.to(dtype=neox_args.params_dtype)$/;"	v
+master_weight	megatron/mpu/layers.py	/^    master_weight = torch.empty($/;"	v
+max_gen_toks	eval_tasks/eval_adapter.py	/^    def max_gen_toks(self):$/;"	m	class:EvalHarnessAdapter
+max_length	eval_tasks/eval_adapter.py	/^    def max_length(self):$/;"	m	class:EvalHarnessAdapter
+maximum_tokens	megatron/text_generation_utils.py	/^            maximum_tokens=maximum_tokens,$/;"	v
+maximum_tokens	megatron/text_generation_utils.py	/^        maximum_tokens=maximum_tokens,$/;"	v
+maximum_tokens	megatron/text_generation_utils.py	/^    maximum_tokens = maximum_tokens or ($/;"	v
+maybe_download_gpt2_tokenizer_data	tools/corpora.py	/^def maybe_download_gpt2_tokenizer_data(tokenizer_type, data_dir):$/;"	f
+md	configs/gen_docs.py	/^    md = to_md(docs, intro_str=intro_str)$/;"	v
+megatron_config	megatron/neox_arguments/arguments.py	/^    def megatron_config(self) -> dict:$/;"	m	class:NeoXArgs
+merge	tools/merge20b.py	/^def merge(input_dir, output_dir):$/;"	f
+merge_file	prepare_data.py	/^        merge_file=args.merge_file,$/;"	v
+merge_file	tools/corpora.py	/^    def merge_file(self):$/;"	m	class:DataDownloader
+merge_file_	megatron/data/indexed_dataset.py	/^    def merge_file_(self, another_file):$/;"	m	class:IndexedDatasetBuilder
+merge_file_	megatron/data/indexed_dataset.py	/^    def merge_file_(self, another_file):$/;"	m	class:MMapIndexedDatasetBuilder
+merge_model_weights	tools/merge20b.py	/^def merge_model_weights(input_checkpoint_path, output_checkpoint_path):$/;"	f
+merge_partitions	tools/merge_mp_partitions.py	/^def merge_partitions(merged, partitions, partition_dim, stride):$/;"	f
+message	megatron/text_generation_utils.py	/^                    message = "WARNING: generated token which doesn't exist."$/;"	v
+message	megatron/text_generation_utils.py	/^                    message = None$/;"	v
+message	megatron/text_generation_utils.py	/^                message = "WARNING: text generation did not start; try different batching or adjust parameters"$/;"	v
+mish	megatron/model/activations.py	/^def mish(x):$/;"	f
+model	megatron/text_generation_utils.py	/^            model=model,$/;"	v
+model	megatron/text_generation_utils.py	/^        model=model,$/;"	v
+model	megatron/training.py	/^        model=model,$/;"	v
+model	mycode/net.py	/^model = NeuralNetwork(input_dim, hidden_dim, output_dim)$/;"	v
+model_inputs	megatron/text_generation_utils.py	/^                model_inputs = ($/;"	v
+model_parallel_cuda_manual_seed	megatron/mpu/random.py	/^model_parallel_cuda_manual_seed = checkpointing.model_parallel_cuda_manual_seed$/;"	v
+model_parallel_is_initialized	megatron/mpu/initialize.py	/^def model_parallel_is_initialized():$/;"	f
+model_setup	tests/common.py	/^def model_setup(yaml_list=None, param_dict=None, clear_data=True):$/;"	f
+modified_tensor	mycode/t.py	/^modified_tensor = torch.where(tensor < 2, tensor, 2 + (tensor - 1) \/ 2)$/;"	v
+modified_tensor2	mycode/t.py	/^modified_tensor2 = tensor * 512 \/ 1024$/;"	v
+modify_config	tools/merge20b.py	/^def modify_config(input_config_path, output_config_path, output_dir):$/;"	f
+modify_model_states	tools/merge20b.py	/^def modify_model_states(input_model_state_path, output_model_state_path):$/;"	f
+multihead_attn	megatron/fused_kernels/scaled_masked_softmax.cpp	/^namespace multihead_attn {$/;"	n	file:
+multihead_attn	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^namespace multihead_attn {$/;"	n	file:
+my_FIRE	mycode/slopes.py	/^def my_FIRE():$/;"	f
+my_length	mycode/print2.py	/^        my_length = (line.strip())$/;"	v
+my_norm	mycode/get_kernel_alpha.py	/^def my_norm():$/;"	f
+my_norm	mycode/kernel.py	/^def my_norm():$/;"	f
+my_norm	mycode/net.py	/^def my_norm(target_seq_len=512):$/;"	f
+my_norm	mycode/slopes.py	/^def my_norm():$/;"	f
+my_norm	mycode/slopes_add.py	/^def my_norm(mylen):$/;"	f
+my_norm2	mycode/kernel.py	/^def my_norm2():$/;"	f
+my_rpe	mycode/print2.py	/^        my_rpe = (line.strip())$/;"	v
+my_seed	mycode/print2.py	/^        my_seed = (line.strip())$/;"	v
+my_weight_list	megatron/mpu/layers.py	/^    my_weight_list = weight_list[rank::world_size]$/;"	v
+mylen	mycode/print.py	/^                mylen = 1024$/;"	v
+mylen	mycode/print.py	/^                mylen = 2048$/;"	v
+mylen	mycode/print.py	/^                mylen = 4096$/;"	v
+mylen	mycode/print.py	/^                mylen = 512$/;"	v
+mylen	mycode/print.py	/^mylen = 0$/;"	v
+mylen	mycode/print2.py	/^mylen = 0$/;"	v
+name	megatron/data/data_utils.py	/^                    name=f"test_{i}",$/;"	v
+name	megatron/data/data_utils.py	/^                    name=f"train_{i}",$/;"	v
+name	megatron/data/data_utils.py	/^                    name=f"valid_{i}",$/;"	v
+name	megatron/fused_kernels/setup.py	/^    name="fused_kernels",$/;"	v
+name	tools/corpora.py	/^    def name(self):$/;"	m	class:DataDownloader
+name	tools/corpora.py	/^    name = "arxiv"$/;"	v	class:ArXiv
+name	tools/corpora.py	/^    name = "books1"$/;"	v	class:Books1
+name	tools/corpora.py	/^    name = "books3"$/;"	v	class:Books3
+name	tools/corpora.py	/^    name = "c4"$/;"	v	class:C4
+name	tools/corpora.py	/^    name = "c4_openwebtext"$/;"	v	class:C4OpenWebText
+name	tools/corpora.py	/^    name = "enron"$/;"	v	class:Enron
+name	tools/corpora.py	/^    name = "enwik8"$/;"	v	class:Enwik8
+name	tools/corpora.py	/^    name = "europarl"$/;"	v	class:EuroParl
+name	tools/corpora.py	/^    name = "freelaw"$/;"	v	class:FreeLaw
+name	tools/corpora.py	/^    name = "github"$/;"	v	class:Github
+name	tools/corpora.py	/^    name = "hackernews"$/;"	v	class:HackerNews
+name	tools/corpora.py	/^    name = "nih"$/;"	v	class:NiH
+name	tools/corpora.py	/^    name = "openwebtext2"$/;"	v	class:OpenWebText2
+name	tools/corpora.py	/^    name = "pile"$/;"	v	class:Pile
+name	tools/corpora.py	/^    name = "pile_00"$/;"	v	class:PileSubset
+name	tools/corpora.py	/^    name = "pubmed"$/;"	v	class:PubMed
+name	tools/corpora.py	/^    name = "stackexchange"$/;"	v	class:StackExchange
+name	tools/corpora.py	/^    name = "ubuntu_irc"$/;"	v	class:UbuntuIRC
+name	tools/corpora.py	/^    name = "youtube_subtitles"$/;"	v	class:YoutubeSubtitles
+natural_sort	megatron/utils.py	/^def natural_sort(l):$/;"	f
+natural_sort	tools/inspect_checkpoints.py	/^def natural_sort(l):$/;"	f
+neox_args	deepy.py	/^neox_args = NeoXArgs.consume_deepy_args()$/;"	v
+neox_args	megatron/text_generation_utils.py	/^            neox_args=neox_args,$/;"	v
+neox_args	megatron/text_generation_utils.py	/^        neox_args=neox_args,$/;"	v
+neox_args	megatron/training.py	/^        neox_args=neox_args,$/;"	v
+neox_args	megatron/utils.py	/^        neox_args=neox_args,$/;"	v
+neox_args	megatron/utils.py	/^    neox_args = NeoXArgs.consume_neox_args(overwrite_values=_overwrite_values)$/;"	v
+neox_args	train.py	/^    neox_args = NeoXArgs.consume_neox_args()$/;"	v
+new_line	mycode/print.py	/^        new_line = "%s\\t%s\\t%s" % (factor, mylen, sep[2])$/;"	v
+new_line	mycode/print2.py	/^        new_line = "%s" % (dvalue*(10**zvalue))$/;"	v
+next_token_log_probs	megatron/text_generation_utils.py	/^                    next_token_log_probs = F.softmax(generated_token_logits, dim=-1)$/;"	v
+none	megatron/model/fused_softmax.py	/^    none = 3  # no fusion$/;"	v	class:SoftmaxFusionTypes
+num_docs	tools/corpora.py	/^    def num_docs(self):$/;"	m	class:DataDownloader
+num_docs	tools/corpora.py	/^    num_docs = 17103000$/;"	v	class:OpenWebText2
+num_docs	tools/corpora.py	/^    num_docs = 373000$/;"	v	class:HackerNews
+num_docs	tools/corpora.py	/^    num_docs = 517401$/;"	v	class:Enron
+num_samples	megatron/data/data_utils.py	/^                    num_samples=test_num_samples[i],$/;"	v
+num_samples	megatron/data/data_utils.py	/^                    num_samples=train_num_samples[i],$/;"	v
+num_samples	megatron/data/data_utils.py	/^                    num_samples=valid_num_samples[i],$/;"	v
+num_samples	megatron/data/samplers.py	/^    def num_samples(self):$/;"	m	class:RandomSampler
+num_tokens	megatron/data/indexed_dataset.py	/^    def num_tokens(self, index):$/;"	m	class:IndexedDataset
+num_workers	tools/corpora.py	/^    def num_workers(self):$/;"	m	class:DataDownloader
+nvcc_flags	megatron/fused_kernels/setup.py	/^nvcc_flags = [$/;"	v
+obtain_resource_pool	megatron/utils.py	/^def obtain_resource_pool($/;"	f
+operator ()	megatron/fused_kernels/scaled_masked_softmax.h	/^    __device__ __forceinline__ T operator()(T a, T b) const { return a + b; }$/;"	f	struct:__anon1::Add
+operator ()	megatron/fused_kernels/scaled_masked_softmax.h	/^    __device__ __forceinline__ T operator()(T a, T b) const { return a < b ? b : a; }$/;"	f	struct:__anon1::Max
+operator ()	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^    __device__ __forceinline__ T operator()(T a, T b) const { return a + b; }$/;"	f	struct:__anon2::Add
+operator ()	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^    __device__ __forceinline__ T operator()(T a, T b) const { return a < b ? b : a; }$/;"	f	struct:__anon2::Max
+original_max_position_embeddings	mycode/ntk-parts.py	/^original_max_position_embeddings=512$/;"	v
+orthogonal_init_method	megatron/model/init_functions.py	/^def orthogonal_init_method(n_layers=1):$/;"	f
+output	mycode/net.py	/^output = model(input_data)$/;"	v
+output	mycode/net.py	/^output=output.reshape(output.shape[0], seq_len, seq_len)$/;"	v
+output	mycode/net.py	/^output=output.transpose(1,0)$/;"	v
+output_dim	mycode/net.py	/^output_dim = 4$/;"	v
+output_file	megatron/text_generation_utils.py	/^            output_file = str(input_file) + ".output.jsonl"$/;"	v
+pad	megatron/tokenizer/tokenizer.py	/^    def pad(self):$/;"	m	class:AbstractTokenizer
+pad_batch	megatron/text_generation_utils.py	/^def pad_batch(context_tokens: List[List[int]], pad_id: int, pad_len: int):$/;"	f
+pad_id	megatron/text_generation_utils.py	/^        pad_id=neox_args.tokenizer.eod,$/;"	v
+pad_len	megatron/text_generation_utils.py	/^        pad_len=neox_args.seq_length,$/;"	v
+pairwise	configs/gen_docs.py	/^def pairwise(iterable):$/;"	f
+parallel_lm_logits	megatron/model/transformer.py	/^def parallel_lm_logits(input_, word_embeddings_weight, parallel_output, bias=None):$/;"	f
+parametrize	tests/common.py	/^def parametrize($/;"	f
+params	tests/model/test_model_checkpoint.py	/^    params = list($/;"	v
+params_dtype	megatron/neox_arguments/arguments.py	/^    def params_dtype(self):$/;"	m	class:NeoXArgs
+parse_args	megatron/tokenizer/train_tokenizer.py	/^def parse_args():$/;"	f
+peek	tools/inspect_checkpoints.py	/^def peek(args: Namespace):$/;"	f
+per_partition_per_stride_size	megatron/mpu/layers.py	/^    per_partition_per_stride_size = divide(per_partition_size, stride)$/;"	v
+poly_bias	mycode/slopes_add.py	/^poly_bias = (1+poly_bias_a*diff).pow(-poly_bias_p)$/;"	v
+poly_bias_a	mycode/slopes_add.py	/^poly_bias_a = poly_bias_a.to(torch.bfloat16)$/;"	v
+poly_bias_a	mycode/slopes_add.py	/^poly_bias_a = poly_bias_a.view(poly_bias_a.shape[0], 1, 1)$/;"	v
+poly_bias_a	mycode/slopes_add.py	/^poly_bias_a = torch.Tensor([0.01, 0.01, 0.01, 0.01, 0.0118, 0.0157, 0.0332, 0.0806, 0.2852, 0.1904, 0.3945, 0.3105])$/;"	v
+poly_bias_p	mycode/slopes_add.py	/^poly_bias_p = poly_bias_p.to(torch.bfloat16)$/;"	v
+poly_bias_p	mycode/slopes_add.py	/^poly_bias_p = poly_bias_p.view(poly_bias_p.shape[0], 1, 1)$/;"	v
+poly_bias_p	mycode/slopes_add.py	/^poly_bias_p = torch.Tensor([0.6914, 0.7656, 1.1406, 1.7812, 1.7266, 1.9688, 2.0938, 2.0312, 1.8672, 4.0938, 3.9375, 4.6875])$/;"	v
+polynomial_kernel	megatron/mpu/layers.py	/^    def polynomial_kernel(self, diff):$/;"	m	class:ParallelSNOPE_right
+polynomial_kernel	mycode/get_kernel_alpha.py	/^def polynomial_kernel(diff):$/;"	f
+polynomial_kernel	mycode/kernel.py	/^def polynomial_kernel(diff):$/;"	f
+pos_emb	mycode/bias.py	/^pos_emb="kerple_power_norm_a_"$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb="kerple_power_norm_clip_original_scaling__"$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb="kerple_power_norm_original__"$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb="kerple_power_norm_original_scaling__"$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_a_'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_learned_a_norm8'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_learned_norm'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_learned_norm_a_'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_norm_a_'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_norm_original'$/;"	v
+pos_emb	mycode/bias.py	/^pos_emb='kerple_power_original__'$/;"	v
+pos_embs	generate_snope_tmp_ymls.py	/^pos_embs = ['snope_norm_original_scaling_']$/;"	v
+pos_embs	generate_snope_ymls.py	/^pos_embs = ['snope_norm_original_scaling_']$/;"	v
+pos_embs	generate_ymls.py	/^pos_embs = ['kerple_power_ap_', 'kerple_log']$/;"	v
+position_ids	megatron/utils.py	/^    position_ids = position_ids.unsqueeze(0).expand_as(data)$/;"	v
+position_ids	megatron/utils.py	/^    position_ids = torch.arange(seq_length, dtype=torch.long, device=data.device)$/;"	v
+positions_to_use	megatron/text_generation_utils.py	/^                    positions_to_use = position_ids[$/;"	v
+positions_to_use	megatron/text_generation_utils.py	/^                    positions_to_use = position_ids[:, :token_index_to_generate]$/;"	v
+prefetch	megatron/data/indexed_dataset.py	/^    def prefetch(self, indices):$/;"	m	class:IndexedCachedDataset
+prepare	tools/corpora.py	/^    def prepare(self):$/;"	m	class:DataDownloader
+prepare_dataset	tools/corpora.py	/^def prepare_dataset($/;"	f
+pretrain	megatron/training.py	/^def pretrain(neox_args):$/;"	f
+pretty_print	tools/inspect_checkpoints.py	/^def pretty_print(contents: dict):$/;"	f
+pretty_print_double	tools/inspect_checkpoints.py	/^def pretty_print_double(contents1: dict, contents2: dict, args):$/;"	f
+print	megatron/neox_arguments/arguments.py	/^    def print(self):$/;"	m	class:NeoXArgs
+print_alibi	mycode/get_kernel_alpha.py	/^def print_alibi(i, diff) :$/;"	f
+print_alibi	mycode/kernel.py	/^def print_alibi(i, diff) :$/;"	f
+print_diff	mycode/get_kernel_alpha.py	/^def print_diff(diff) :$/;"	f
+print_diff	mycode/kernel.py	/^def print_diff(diff) :$/;"	f
+print_diff	mycode/slopes_add.py	/^def print_diff(diff) :$/;"	f
+print_diff_	mycode/kernel.py	/^def print_diff_(a, diff) :$/;"	f
+print_rank_0	megatron/__init__.py	/^def print_rank_0(*message):$/;"	f
+print_split_stats	megatron/data/data_utils.py	/^    def print_split_stats(name, index):$/;"	f	function:build_train_valid_test_datasets
+prompts	megatron/text_generation_utils.py	/^        prompts = f.readlines()$/;"	v
+prompts	megatron/text_generation_utils.py	/^    prompts = [p for p in prompts if len(p) > 0]$/;"	v
+prompts	megatron/text_generation_utils.py	/^    prompts = [p.strip() for p in prompts]$/;"	v
+rank	megatron/mpu/layers.py	/^    rank = get_model_parallel_rank()$/;"	v
+raw_text	megatron/text_generation_utils.py	/^            raw_text = text[input_pos]$/;"	v
+read_data	megatron/data/indexed_dataset.py	/^    def read_data(self, path):$/;"	m	class:IndexedDataset
+read_index	megatron/data/indexed_dataset.py	/^    def read_index(self, path):$/;"	m	class:IndexedDataset
+read_longs	megatron/data/indexed_dataset.py	/^def read_longs(f, n):$/;"	f
+recompute	megatron/text_generation_utils.py	/^            recompute=recompute,$/;"	v
+recompute	megatron/text_generation_utils.py	/^        recompute=recompute,$/;"	v
+recursive_setattr	megatron/model/utils.py	/^def recursive_setattr(m, attr, value, assert_type=None, type_filter=None):$/;"	f
+reduce_from_model_parallel_region	megatron/mpu/mappings.py	/^def reduce_from_model_parallel_region(input_):$/;"	f
+reduce_losses	megatron/utils.py	/^def reduce_losses(losses):$/;"	f
+report_memory	megatron/utils.py	/^def report_memory(name):$/;"	f
+reset	megatron/utils.py	/^    def reset(self):$/;"	m	class:Timer
+rotate_half	megatron/model/positional_embeddings.py	/^def rotate_half(x):$/;"	f
+run_checkpoint_test	tests/model/test_model_checkpoint.py	/^def run_checkpoint_test(yaml_list=None, param_dict=None):$/;"	f
+run_eval	eval_tasks/eval_adapter.py	/^    def run_eval($/;"	m	class:EvalHarnessAdapter
+run_eval_harness	eval_tasks/eval_adapter.py	/^def run_eval_harness($/;"	f
+run_func_decorator	tests/common.py	/^        def run_func_decorator(*func_args, **func_kwargs):$/;"	f	function:distributed_test.dist_wrap
+run_generate_test	tests/model/test_model_generation.py	/^def run_generate_test(param_dict, prompt):$/;"	f
+run_neox_args_load_test	tests/neox_args/test_neoxargs_load.py	/^def run_neox_args_load_test(yaml_files):$/;"	f
+run_test_model_instantiation	tests/model/test_model_instantiation.py	/^def run_test_model_instantiation(yaml_list=None, param_dict=None):$/;"	f
+run_train_test	tests/model/test_model_train.py	/^def run_train_test(yaml_list=None, param_dict=None):$/;"	f
+save_checkpoint	megatron/checkpointing.py	/^def save_checkpoint(neox_args, iteration, model, optimizer, lr_scheduler):$/;"	f
+save_ds_checkpoint	megatron/checkpointing.py	/^def save_ds_checkpoint(iteration, model, neox_args):$/;"	f
+save_path	megatron/tokenizer/train_tokenizer.py	/^        save_path=args.tokenizer_output_path,$/;"	v
+save_vocabulary	megatron/tokenizer/gpt2_tokenization.py	/^    def save_vocabulary(self, vocab_path):$/;"	m	class:GPT2Tokenizer
+scaled_init_method_normal	megatron/model/init_functions.py	/^def scaled_init_method_normal(sigma, num_layers):$/;"	f
+scaled_masked_softmax	megatron/fused_kernels/scaled_masked_softmax.cpp	/^namespace scaled_masked_softmax {$/;"	n	namespace:multihead_attn::fused_softmax	file:
+scaled_masked_softmax_warp_backward	megatron/fused_kernels/scaled_masked_softmax.h	/^__global__ void scaled_masked_softmax_warp_backward(output_t* gradInput,$/;"	f	namespace:__anon1
+scaled_masked_softmax_warp_forward	megatron/fused_kernels/scaled_masked_softmax.h	/^__global__ void scaled_masked_softmax_warp_forward(output_t* dst,$/;"	f	namespace:__anon1
+scaled_upper_triang_masked_softmax	megatron/fused_kernels/scaled_upper_triang_masked_softmax.cpp	/^namespace scaled_upper_triang_masked_softmax {$/;"	n	namespace:multihead_attn::fused_softmax	file:
+scaled_upper_triang_masked_softmax_warp_backward	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__global__ void scaled_upper_triang_masked_softmax_warp_backward(output_t* gradInput,$/;"	f	namespace:__anon2
+scaled_upper_triang_masked_softmax_warp_forward	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__global__ void scaled_upper_triang_masked_softmax_warp_forward(output_t* dst,$/;"	f	namespace:__anon2
+scaling	generate_snope_tmp_ymls.py	/^scaling = '160'$/;"	v
+scaling	generate_snope_ymls.py	/^scaling = '512'$/;"	v
+scatter_to_model_parallel_region	megatron/mpu/mappings.py	/^def scatter_to_model_parallel_region(input_):$/;"	f
+seed	generate_snope_tmp_ymls.py	/^                seed = str(seed)$/;"	v
+seed	generate_snope_ymls.py	/^                seed = str(seed)$/;"	v
+seed	generate_ymls.py	/^                seed = str(seed)$/;"	v
+seed	megatron/data/data_utils.py	/^                    seed=neox_args.seed,$/;"	v
+seeds	generate_snope_tmp_ymls.py	/^seeds = list(range(1235, 1235+5))$/;"	v
+seeds	generate_snope_ymls.py	/^seeds = list(range(1235, 1235+5))$/;"	v
+seeds	generate_ymls.py	/^seeds = list(range(1235, 1235+5))$/;"	v
+sep	megatron/tokenizer/tokenizer.py	/^    def sep(self):$/;"	m	class:AbstractTokenizer
+sep	mycode/print.py	/^        sep = line.strip().split('|')$/;"	v
+sep	mycode/print.py	/^        sep = line.strip().split()$/;"	v
+sep	mycode/print2.py	/^        sep = line.strip().split('|')$/;"	v
+seq_len	mycode/net.py	/^seq_len=3$/;"	v
+seq_len	mycode/rope.py	/^seq_len=10$/;"	v
+seq_length	megatron/data/data_utils.py	/^                    seq_length=neox_args.seq_length,$/;"	v
+seq_length	megatron/utils.py	/^        seq_length=seq_length,$/;"	v
+set_cuda_visibile	tests/common.py	/^def set_cuda_visibile():$/;"	f
+set_doc_idx	megatron/data/indexed_dataset.py	/^    def set_doc_idx(self, doc_idx_):$/;"	m	class:MMapIndexedDataset
+set_epoch	megatron/data/samplers.py	/^    def set_epoch(self, epoch):$/;"	m	class:RandomSampler
+set_model_parallel_rank	megatron/mpu/initialize.py	/^def set_model_parallel_rank(rank):$/;"	f
+set_model_parallel_world_size	megatron/mpu/initialize.py	/^def set_model_parallel_world_size(world_size):$/;"	f
+set_parallel_output	megatron/mpu/layers.py	/^    def set_parallel_output(self, parallel_output: bool):$/;"	m	class:RowParallelLinear
+set_parallel_output	megatron/mpu/layers.py	/^    def set_parallel_output(self, value: bool):$/;"	m	class:ColumnParallelLinear
+set_special_tokens	megatron/tokenizer/gpt2_tokenization.py	/^    def set_special_tokens(self, special_tokens):$/;"	m	class:GPT2Tokenizer
+setup_deepspeed_random_and_activation_checkpointing	megatron/initialize.py	/^def setup_deepspeed_random_and_activation_checkpointing(neox_args):$/;"	f
+setup_for_inference_or_eval	megatron/utils.py	/^def setup_for_inference_or_eval($/;"	f
+setup_model_and_optimizer	megatron/training.py	/^def setup_model_and_optimizer(neox_args, use_cache=False, iteration=None):$/;"	f
+size	megatron/data/indexed_dataset.py	/^    def size(self, index):$/;"	m	class:IndexedDataset
+sizeof_fmt	tools/inspect_checkpoints.py	/^def sizeof_fmt(num, suffix="B"):$/;"	f
+sizes	megatron/data/indexed_dataset.py	/^        def sizes(self):$/;"	m	class:MMapIndexedDataset.Index
+sizes	megatron/data/indexed_dataset.py	/^    def sizes(self):$/;"	m	class:MMapIndexedDataset
+skip_warmup	megatron/data/data_utils.py	/^                    skip_warmup=(not neox_args.mmap_warmup),$/;"	v
+slopes	mycode/net.py	/^slopes = get_slopes(4)$/;"	v
+slopes	mycode/net.py	/^slopes = slopes.view(slopes.shape[0], 1, 1)$/;"	v
+small_init_init_method	megatron/model/init_functions.py	/^def small_init_init_method(dim):$/;"	f
+sparse_attention	megatron/model/transformer.py	/^    def sparse_attention(self, query_layer, key_layer, value_layer, attention_mask):$/;"	m	class:ParallelSelfAttention
+split_into_partitions	tools/merge_mp_partitions.py	/^def split_into_partitions(tensor, num_partitions, partition_dim, stride):$/;"	f
+split_tensor_along_last_dim	megatron/mpu/utils.py	/^def split_tensor_along_last_dim(tensor, num_partitions, contiguous_split_chunks=False):$/;"	f
+src	megatron/text_generation_utils.py	/^                    src=src_rank,$/;"	v
+src_rank	megatron/text_generation_utils.py	/^                src_rank = model.grid.stage_to_global(model.num_stages - 1)$/;"	v
+srcpath	megatron/fused_kernels/__init__.py	/^srcpath = Path(__file__).parent.absolute()$/;"	v
+srcpath	megatron/fused_kernels/setup.py	/^srcpath = Path(__file__).parent.absolute()$/;"	v
+start	megatron/utils.py	/^    def start(self):$/;"	m	class:Timer
+start_time	megatron/text_generation_utils.py	/^        start_time = time.time()$/;"	v
+state_dict	megatron/learning_rates.py	/^    def state_dict(self):$/;"	m	class:AnnealingLR
+state_done	megatron/text_generation_utils.py	/^            state_done = ($/;"	v
+state_is_done	megatron/text_generation_utils.py	/^            state_is_done = state_is_done | state_done$/;"	v
+state_is_done	megatron/text_generation_utils.py	/^            state_is_done = state_is_done | stop_tokens_produced$/;"	v
+state_is_done	megatron/text_generation_utils.py	/^        state_is_done = torch.zeros([batch_size]).byte().cuda()$/;"	v
+state_just_finished	megatron/text_generation_utils.py	/^            state_just_finished = (state_done & ~state_is_done).bool()$/;"	v
+state_started	megatron/text_generation_utils.py	/^            state_started = ($/;"	v
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelAliBi
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelAliBiLearning
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelKerpleLog
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelKerplePower
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelSNOPE
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelSNOPE_alibi_merge
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelSNOPE_old
+stats	megatron/mpu/layers.py	/^    def stats(self):$/;"	m	class:ParallelSNOPE_right
+step	megatron/learning_rates.py	/^    def step(self, step_num=None):$/;"	m	class:AnnealingLR
+step	megatron/optimizers.py	/^    def step(self, closure: Optional[Callable[[], float]] = None) -> Optional[float]:$/;"	m	class:madgrad_wd
+step	megatron/optimizers.py	/^    def step(self, closure=None):$/;"	m	class:SM3
+stop	megatron/utils.py	/^    def stop(self):$/;"	m	class:Timer
+stop_tokens	megatron/text_generation_utils.py	/^            stop_tokens = [stop_tokens]$/;"	v
+stop_tokens	megatron/text_generation_utils.py	/^            stop_tokens=stop_tokens,$/;"	v
+stop_tokens_in_completion	megatron/text_generation_utils.py	/^def stop_tokens_in_completion(stop_tokens, context_tokens, batch_index, current_index):$/;"	f
+stop_tokens_produced	megatron/text_generation_utils.py	/^            stop_tokens_produced = torch.zeros_like(state_is_done)$/;"	v
+stream_tokens	megatron/text_generation_utils.py	/^def stream_tokens($/;"	f
+string	megatron/training.py	/^    string = f" {chart_name} results at {prefix} | "$/;"	v
+supports_flat_params	megatron/optimizers.py	/^    def supports_flat_params(self) -> bool:$/;"	m	class:madgrad_wd
+supports_memory_efficient_fp16	megatron/optimizers.py	/^    def supports_memory_efficient_fp16(self) -> bool:$/;"	m	class:madgrad_wd
+supports_prefetch	megatron/data/indexed_dataset.py	/^    def supports_prefetch(self):$/;"	m	class:IndexedCachedDataset
+supports_prefetch	megatron/data/indexed_dataset.py	/^    def supports_prefetch(self):$/;"	m	class:IndexedDataset
+supports_prefetch	megatron/data/indexed_dataset.py	/^    def supports_prefetch(self):$/;"	m	class:MMapIndexedDataset
+swish	megatron/model/activations.py	/^def swish(x, beta: float = 1.0):$/;"	f
+switch	megatron/text_generation_utils.py	/^def switch(val1, val2, boolean):$/;"	f
+symbolic	megatron/mpu/mappings.py	/^    def symbolic(graph, input_):$/;"	m	class:_CopyToModelParallelRegion
+symbolic	megatron/mpu/mappings.py	/^    def symbolic(graph, input_):$/;"	m	class:_GatherFromModelParallelRegion
+symbolic	megatron/mpu/mappings.py	/^    def symbolic(graph, input_):$/;"	m	class:_ReduceFromModelParallelRegion
+symbolic	megatron/mpu/mappings.py	/^    def symbolic(graph, input_):$/;"	m	class:_ScatterToModelParallelRegion
+t	mycode/mul.py	/^t = torch.rand(1, 128, dtype=torch.float32, device='cuda')$/;"	v
+t	mycode/rope.py	/^t = torch.arange(seq_len).type_as(inv_freq)$/;"	v
+tanh_kernel	megatron/mpu/layers.py	/^    def tanh_kernel(self, a):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel	mycode/get_kernel_alpha.py	/^def tanh_kernel(a):$/;"	f
+tanh_kernel	mycode/kernel.py	/^def tanh_kernel(a):$/;"	f
+tanh_kernel2	megatron/mpu/layers.py	/^    def tanh_kernel2(self, a):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel2	mycode/kernel.py	/^def tanh_kernel2(a):$/;"	f
+tanh_kernel_learning	megatron/mpu/layers.py	/^    def tanh_kernel_learning(self, a):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel_learning	mycode/kernel.py	/^def tanh_kernel_learning(a):$/;"	f
+tanh_kernel_log	megatron/mpu/layers.py	/^    def tanh_kernel_log(self, a):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel_log	mycode/get_kernel_alpha.py	/^def tanh_kernel_log(a):$/;"	f
+tanh_kernel_log	mycode/kernel.py	/^def tanh_kernel_log(a):$/;"	f
+tanh_kernel_minmax	megatron/mpu/layers.py	/^    def tanh_kernel_minmax(self, a):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel_minmax_learning	megatron/mpu/layers.py	/^    def tanh_kernel_minmax_learning(self, a, x):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel_slopes	megatron/mpu/layers.py	/^    def tanh_kernel_slopes(self, a, x):$/;"	m	class:ParallelSNOPE
+tanh_kernel_slopes	megatron/mpu/layers.py	/^    def tanh_kernel_slopes(self, a, x):$/;"	m	class:ParallelSNOPE_right
+tanh_kernel_slopes2	megatron/mpu/layers.py	/^    def tanh_kernel_slopes2(self, a, x):$/;"	m	class:ParallelSNOPE_right
+tb_wandb_log	megatron/logging.py	/^def tb_wandb_log($/;"	f
+temperature	megatron/text_generation_utils.py	/^            temperature=temperature,$/;"	v
+temperature	megatron/text_generation_utils.py	/^        temperature=temperature,$/;"	v
+tensor	megatron/text_generation_utils.py	/^                    tensor=generated_tokens,$/;"	v
+tensor	mycode/t.py	/^tensor = torch.tensor([[0, 0, 0, 0],$/;"	v
+tensorboard_writer	megatron/neox_arguments/neox_args.py	/^    tensorboard_writer = None$/;"	v	class:NeoXArgsLogging
+tensorboard_writer	megatron/training.py	/^                    tensorboard_writer=neox_args.tensorboard_writer,$/;"	v
+tensorboard_writer	megatron/training.py	/^                tensorboard_writer=neox_args.tensorboard_writer,$/;"	v
+terminate_runs	megatron/text_generation_utils.py	/^            terminate_runs = 0$/;"	v
+terminate_runs	megatron/text_generation_utils.py	/^            terminate_runs = 1$/;"	v
+terminate_runs	megatron/text_generation_utils.py	/^        terminate_runs = 0$/;"	v
+terminate_runs	megatron/text_generation_utils.py	/^        terminate_runs = broadcast_terminate_signal(terminate_runs)$/;"	v
+test	mycode/slopes.py	/^def test():$/;"	f
+test	mycode/t5.py	/^def test():$/;"	f
+test_fused_softmax	megatron/fused_kernels/tests/test_fused_kernels.py	/^def test_fused_softmax():$/;"	f
+test_fused_softmax	tests/model/test_fused_kernels.py	/^def test_fused_softmax():$/;"	f
+test_fused_upper_triangle_mask_softmax	megatron/fused_kernels/tests/test_fused_kernels.py	/^def test_fused_upper_triangle_mask_softmax():$/;"	f
+test_fused_upper_triangle_mask_softmax	tests/model/test_fused_kernels.py	/^def test_fused_upper_triangle_mask_softmax():$/;"	f
+test_instantiate	tests/model/test_model_instantiation.py	/^def test_instantiate(param_dict):$/;"	f
+test_instantiate_optimizers	tests/model/test_model_instantiation.py	/^def test_instantiate_optimizers(param_dict):$/;"	f
+test_layer_norm	megatron/fused_kernels/tests/test_fused_kernels.py	/^def test_layer_norm():$/;"	f
+test_load_fused_kernels	megatron/fused_kernels/tests/test_fused_kernels.py	/^def test_load_fused_kernels():$/;"	f
+test_load_fused_kernels	tests/model/test_fused_kernels.py	/^def test_load_fused_kernels():$/;"	f
+test_neoxargs_consume_deepy_args_with_config_dir	tests/neox_args/test_neoxargs_commandline.py	/^def test_neoxargs_consume_deepy_args_with_config_dir():$/;"	f
+test_neoxargs_consume_deepy_args_with_hostfile_param	tests/neox_args/test_neoxargs_commandline.py	/^def test_neoxargs_consume_deepy_args_with_hostfile_param():$/;"	f
+test_neoxargs_consume_deepy_args_without_yml_suffix	tests/neox_args/test_neoxargs_commandline.py	/^def test_neoxargs_consume_deepy_args_without_yml_suffix():$/;"	f
+test_neoxargs_consume_neox_args	tests/neox_args/test_neoxargs_commandline.py	/^def test_neoxargs_consume_neox_args():$/;"	f
+test_neoxargs_duplicates	tests/neox_args/test_neoxargs_implementation.py	/^def test_neoxargs_duplicates():$/;"	f
+test_neoxargs_fail_instantiate_without_any_params	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_fail_instantiate_without_any_params():$/;"	f
+test_neoxargs_fail_instantiate_without_required_params	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_fail_instantiate_without_required_params():$/;"	f
+test_neoxargs_load_arguments_13B_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_13B_local_setup():$/;"	f
+test_neoxargs_load_arguments_175B_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_175B_local_setup():$/;"	f
+test_neoxargs_load_arguments_2_7B_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_2_7B_local_setup():$/;"	f
+test_neoxargs_load_arguments_6_7B_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_6_7B_local_setup():$/;"	f
+test_neoxargs_load_arguments_XL_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_XL_local_setup():$/;"	f
+test_neoxargs_load_arguments_large_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_large_local_setup():$/;"	f
+test_neoxargs_load_arguments_medium_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_medium_local_setup():$/;"	f
+test_neoxargs_load_arguments_small_local_setup	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_small_local_setup():$/;"	f
+test_neoxargs_load_arguments_small_local_setup_text_generation	tests/neox_args/test_neoxargs_load.py	/^def test_neoxargs_load_arguments_small_local_setup_text_generation():$/;"	f
+test_neoxargs_usage	tests/neox_args/test_neoxargs_usage.py	/^def test_neoxargs_usage():$/;"	f
+test_split_merge	tools/merge_mp_partitions.py	/^def test_split_merge():$/;"	f
+test_train	tests/model/test_model_checkpoint.py	/^def test_train(param_dict):$/;"	f
+test_train	tests/model/test_model_generation.py	/^def test_train(param_dict):$/;"	f
+test_train	tests/model/test_model_train.py	/^def test_train(param_dict):$/;"	f
+test_train_bf16	tests/model/test_model_train.py	/^def test_train_bf16(param_dict):$/;"	f
+test_train_optimizers	tests/model/test_model_train.py	/^def test_train_optimizers(param_dict):$/;"	f
+text	megatron/text_generation_utils.py	/^        text = [text]$/;"	v
+text	megatron/text_generation_utils.py	/^        text=["" for _ in range(number_of_samples)],$/;"	v
+text	megatron/text_generation_utils.py	/^        text=prompts,$/;"	v
+timers	megatron/training.py	/^        timers=timers,$/;"	v
+to_gaussian_distribution	megatron/mpu/layers.py	/^    def to_gaussian_distribution(self, a, seq_len_k) :$/;"	m	class:ParallelSNOPE_right
+to_gaussian_distribution	mycode/get_kernel_alpha.py	/^def to_gaussian_distribution(a, seq_len_k) :$/;"	f
+to_gaussian_distribution	mycode/kernel.py	/^def to_gaussian_distribution(a, seq_len_k) :$/;"	f
+to_gaussian_distribution2	mycode/get_kernel_alpha.py	/^def to_gaussian_distribution2(a, seq_len_k) :$/;"	f
+to_gaussian_distribution2	mycode/kernel.py	/^def to_gaussian_distribution2(a, seq_len_k) :$/;"	f
+to_md	configs/gen_docs.py	/^def to_md(docs, intro_str=""):$/;"	f
+to_min_max_distribution	megatron/mpu/layers.py	/^    def to_min_max_distribution(self, a, seq_len_k) :$/;"	m	class:ParallelSNOPE_right
+to_min_max_distribution	mycode/get_kernel_alpha.py	/^def to_min_max_distribution(a, seq_len_k) :$/;"	f
+to_min_max_distribution	mycode/kernel.py	/^def to_min_max_distribution(a, seq_len_k) :$/;"	f
+to_sequential	megatron/model/gpt2_model.py	/^    def to_sequential(self):$/;"	m	class:GPT2ModelPipe
+tok_decode	eval_tasks/eval_adapter.py	/^    def tok_decode(self, tokens):$/;"	m	class:EvalHarnessAdapter
+tok_encode	eval_tasks/eval_adapter.py	/^    def tok_encode(self, string: str):$/;"	m	class:EvalHarnessAdapter
+token_generation_end_index	megatron/text_generation_utils.py	/^        token_generation_end_index = torch.ones([batch_size]).long().cuda() * (-1)$/;"	v
+token_generation_start_index	megatron/text_generation_utils.py	/^    token_generation_start_index = torch.cuda.LongTensor(context_lengths)$/;"	v
+token_index_to_generate	megatron/text_generation_utils.py	/^    token_index_to_generate = token_generation_start_index.min().item()$/;"	v
+tokenize	megatron/tokenizer/gpt2_tokenization.py	/^    def tokenize(self, text):$/;"	m	class:GPT2Tokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:AbstractTokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:SentencePieceTokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text):$/;"	m	class:_GPT2BPETokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text: str):$/;"	m	class:CharLevelTokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text: str):$/;"	m	class:HFGPT2Tokenizer
+tokenize	megatron/tokenizer/tokenizer.py	/^    def tokenize(self, text: str):$/;"	m	class:HFTokenizer
+tokenize	tools/corpora.py	/^    def tokenize(self):$/;"	m	class:DataDownloader
+tokenize_batch	megatron/tokenizer/tokenizer.py	/^    def tokenize_batch(self, text_batch: Union[List[str], str]):$/;"	m	class:CharLevelTokenizer
+tokenize_batch	megatron/tokenizer/tokenizer.py	/^    def tokenize_batch(self, text_batch: Union[List[str], str]):$/;"	m	class:HFGPT2Tokenizer
+tokenize_batch	megatron/tokenizer/tokenizer.py	/^    def tokenize_batch(self, text_batch: Union[List[str], str]):$/;"	m	class:HFTokenizer
+tokenizer	megatron/neox_arguments/neox_args.py	/^    tokenizer = None$/;"	v	class:NeoXArgsTokenizer
+tokenizer_type	megatron/tokenizer/train_tokenizer.py	/^        tokenizer_type=args.tokenizer_type,$/;"	v
+tokenizer_type	prepare_data.py	/^        tokenizer_type=args.tokenizer,$/;"	v
+tokenizer_type	tools/corpora.py	/^    def tokenizer_type(self):$/;"	m	class:DataDownloader
+tokens_per_char	megatron/utils.py	/^    def tokens_per_char(self):$/;"	m	class:CharCounter
+tokens_to_use	megatron/text_generation_utils.py	/^                    tokens_to_use = context_tokens[:, :token_index_to_generate]$/;"	v
+tokens_to_use	megatron/text_generation_utils.py	/^                    tokens_to_use = context_tokens[:, token_index_to_generate - 1].view($/;"	v
+top_k	megatron/text_generation_utils.py	/^            top_k=top_k,$/;"	v
+top_k	megatron/text_generation_utils.py	/^        top_k=top_k,$/;"	v
+top_p	megatron/text_generation_utils.py	/^            top_p=top_p,$/;"	v
+top_p	megatron/text_generation_utils.py	/^        top_p=top_p,$/;"	v
+total_loss_dict	megatron/training.py	/^    total_loss_dict = evaluate($/;"	v
+total_num_of_documents	megatron/data/data_utils.py	/^    total_num_of_documents = indexed_dataset.sizes.shape[0]$/;"	v
+train	megatron/training.py	/^def train($/;"	f
+train_mode	megatron/model/gpt2_model.py	/^    def train_mode(self):$/;"	m	class:GPT2ModelPipe
+train_mode	megatron/model/utils.py	/^    def train_mode(self):$/;"	m	class:SequentialWrapper
+train_step	megatron/training.py	/^def train_step(neox_args, timers, data_iterator, model, optimizer, lr_scheduler):$/;"	f
+train_step_pipe	megatron/training.py	/^def train_step_pipe(neox_args, timers, model, data_iterator):$/;"	f
+train_tokenizer	megatron/tokenizer/train_tokenizer.py	/^def train_tokenizer($/;"	f
+training_log	megatron/logging.py	/^def training_log($/;"	f
+update	megatron/gradient_noise_scale/gradient_noise_scale.py	/^    def update(self):$/;"	m	class:GradientNoiseScale
+update_value	megatron/neox_arguments/template.py	/^    def update_value(self, key: str, value):$/;"	m	class:NeoXArgsTemplate
+update_values	megatron/neox_arguments/template.py	/^    def update_values(self, d):$/;"	m	class:NeoXArgsTemplate
+upper_triang	megatron/model/fused_softmax.py	/^    upper_triang = 1  # causal mask$/;"	v	class:SoftmaxFusionTypes
+urls	tools/corpora.py	/^    def urls(self):$/;"	m	class:DataDownloader
+urls	tools/corpora.py	/^    urls = ["http:\/\/eaidata.bmk.sh\/data\/enron_emails.jsonl.zst"]$/;"	v	class:Enron
+urls	tools/corpora.py	/^    urls = ["http:\/\/eaidata.bmk.sh\/data\/github_small.jsonl.zst"]$/;"	v	class:Github
+urls	tools/corpora.py	/^    urls = ["https:\/\/data.deepai.org\/enwik8.zip"]$/;"	v	class:Enwik8
+urls	tools/corpora.py	/^    urls = ["https:\/\/mystic.the-eye.eu\/public\/AI\/pile\/train\/00.jsonl.zst"]$/;"	v	class:PileSubset
+urls	tools/corpora.py	/^    urls = ["https:\/\/mystic.the-eye.eu\/public\/AI\/pile_preliminary_components\/hn.tar.gz"]$/;"	v	class:HackerNews
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:ArXiv
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:Books1
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:Books3
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:C4
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:C4OpenWebText
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:EuroParl
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:FreeLaw
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:NiH
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:OpenWebText2
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:Pile
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:PubMed
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:StackExchange
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:UbuntuIRC
+urls	tools/corpora.py	/^    urls = [$/;"	v	class:YoutubeSubtitles
+use_cache	megatron/utils.py	/^        use_cache=use_cache,$/;"	v
+use_wandb	megatron/training.py	/^                    use_wandb=neox_args.use_wandb,$/;"	v
+use_wandb	megatron/training.py	/^                use_wandb=neox_args.use_wandb,$/;"	v
+validate_keys	megatron/neox_arguments/arguments.py	/^    def validate_keys(cls):$/;"	m	class:NeoXArgs
+validate_types	megatron/neox_arguments/arguments.py	/^    def validate_types(self):$/;"	m	class:NeoXArgs
+validate_values	megatron/neox_arguments/arguments.py	/^    def validate_values(self):$/;"	m	class:NeoXArgs
+verbose	megatron/training.py	/^        verbose=verbose,$/;"	v
+version	megatron/fused_kernels/setup.py	/^    version="0.0.1",$/;"	v
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:AbstractTokenizer
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:CharLevelTokenizer
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:HFGPT2Tokenizer
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:HFTokenizer
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:SentencePieceTokenizer
+vocab	megatron/tokenizer/tokenizer.py	/^    def vocab(self):$/;"	m	class:_GPT2BPETokenizer
+vocab_file	prepare_data.py	/^        vocab_file=args.vocab_file,$/;"	v
+vocab_file	tools/corpora.py	/^    def vocab_file(self):$/;"	m	class:DataDownloader
+vocab_parallel_cross_entropy	megatron/mpu/cross_entropy.py	/^def vocab_parallel_cross_entropy(vocab_parallel_logits, target):$/;"	f
+vocab_range_from_global_vocab_size	megatron/mpu/utils.py	/^    def vocab_range_from_global_vocab_size(global_vocab_size, rank, world_size):$/;"	m	class:VocabUtility
+vocab_range_from_per_partition_vocab_size	megatron/mpu/utils.py	/^    def vocab_range_from_per_partition_vocab_size($/;"	m	class:VocabUtility
+vocab_size	eval_tasks/eval_adapter.py	/^    def vocab_size(self):$/;"	m	class:EvalHarnessAdapter
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:AbstractTokenizer
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:CharLevelTokenizer
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:HFGPT2Tokenizer
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:HFTokenizer
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:SentencePieceTokenizer
+vocab_size	megatron/tokenizer/tokenizer.py	/^    def vocab_size(self):$/;"	m	class:_GPT2BPETokenizer
+vocab_size	megatron/tokenizer/train_tokenizer.py	/^        vocab_size=args.vocab_size,$/;"	v
+w	mycode/mul.py	/^w = torch.rand(128, 1024*3, dtype=torch.float32, device='cuda')$/;"	v
+wandb_token	deepy.py	/^wandb_token = get_wandb_api_key(neox_args=neox_args)$/;"	v
+wang_init_method	megatron/model/init_functions.py	/^def wang_init_method(n_layers, dim):$/;"	f
+warp_reduce	megatron/fused_kernels/scaled_masked_softmax.h	/^__device__ __forceinline__ void warp_reduce(acc_t* sum)$/;"	f	namespace:__anon1
+warp_reduce	megatron/fused_kernels/scaled_upper_triang_masked_softmax.h	/^__device__ __forceinline__ void warp_reduce(acc_t* sum)$/;"	f	namespace:__anon2
+weight_list	megatron/mpu/layers.py	/^    weight_list = torch.split($/;"	v
+weights_by_num_docs	megatron/data/data_utils.py	/^def weights_by_num_docs(l, alpha=0.3):$/;"	f
+word_embeddings_weight	megatron/model/word_embeddings.py	/^    def word_embeddings_weight(self):$/;"	m	class:EmbeddingPipe
+world_size	megatron/mpu/layers.py	/^    world_size = get_model_parallel_world_size()$/;"	v
+wrapper	tests/model/test_model_checkpoint.py	/^    def wrapper():$/;"	f	function:test_train
+wrapper	tests/model/test_model_generation.py	/^    def wrapper():$/;"	f	function:test_train
+wrapper	tests/model/test_model_instantiation.py	/^    def wrapper():$/;"	f	function:test_instantiate
+wrapper	tests/model/test_model_instantiation.py	/^    def wrapper():$/;"	f	function:test_instantiate_optimizers
+wrapper	tests/model/test_model_train.py	/^    def wrapper():$/;"	f	function:test_train
+wrapper	tests/model/test_model_train.py	/^    def wrapper():$/;"	f	function:test_train_bf16
+wrapper	tests/model/test_model_train.py	/^    def wrapper():$/;"	f	function:test_train_optimizers
+write	megatron/data/indexed_dataset.py	/^                def write(self, sizes, doc_idx):$/;"	m	class:MMapIndexedDataset.Index.writer._Writer
+write	megatron/logging.py	/^    def write(self, data):$/;"	m	class:Tee
+write	megatron/utils.py	/^    def write(self, names, iteration, normalizer=1.0, reset=False):$/;"	m	class:Timers
+write_longs	megatron/data/indexed_dataset.py	/^def write_longs(f, a):$/;"	f
+writer	megatron/data/indexed_dataset.py	/^        def writer(cls, path, dtype):$/;"	m	class:MMapIndexedDataset.Index
+x	mycode/fit.py	/^x = [i for i in range(512)]$/;"	v
+x_group	mycode/fit.py	/^x_group = np.array([3, 6.1, 9.1, 11.9, 14.9])$/;"	v
+x_group	mycode/fit.py	/^x_group = np.array(x)$/;"	v
+xavier_normal_init_method	megatron/model/init_functions.py	/^def xavier_normal_init_method():$/;"	f
+xavier_uniform_init_method	megatron/model/init_functions.py	/^def xavier_uniform_init_method():$/;"	f
+y	mycode/fit.py	/^y = [-0.5*i for i in range(512)]$/;"	v
+y	mycode/fit.py	/^y = [-0.5*i if math.exp(-0.5*i) > 1e-10 else 0 for i in range(512)]$/;"	v
+y_group	mycode/fit.py	/^y_group = np.array([0.0221, 0.0491, 0.0711, 0.0971, 0.1238])$/;"	v
+y_group	mycode/fit.py	/^y_group = np.array(y)$/;"	v
+yield_from_files	tools/preprocess_data.py	/^def yield_from_files(fnames: list, semaphore):$/;"	f
+yielder	tools/preprocess_data.py	/^    def yielder(fname, semaphore):$/;"	f	function:yield_from_files
+zvalue	mycode/print2.py	/^        zvalue = int(zvalue)$/;"	v

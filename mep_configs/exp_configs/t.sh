@@ -1,0 +1,5 @@
+
+cp len1024_t5_github_1235.yml len1024_t5_github_1236.yml
+cp len1024_t5_github_1235.yml len1024_t5_github_1237.yml
+cp len1024_t5_github_1235.yml len1024_t5_github_1238.yml
+cp len1024_t5_github_1235.yml len1024_t5_github_1239.yml

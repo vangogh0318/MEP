@@ -1,0 +1,9 @@
+{
+    "save": "kerple_log_arxiv_1235_medium_checkpoints",
+    "load": "kerple_log_arxiv_1235_medium_checkpoints",
+    "log-dir": "kerple_log_arxiv_1235_medium_logs",
+    "seed": 1235,
+    "attention_softmax_in_fp32": True,
+    "data-path": "data/arxiv/arxiv_text_document",
+    "pos-emb": "kerple_log"
+}

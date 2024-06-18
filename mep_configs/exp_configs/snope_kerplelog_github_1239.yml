@@ -1,0 +1,10 @@
+{
+    "save": "snope_kerplelog_exp_fp32_github_1236_checkpoints",
+    "load": "snope_kerplelog_exp_fp32_github_1236_checkpoints",
+    "log-dir": "snope_kerplelog_exp_fp32_github_1236_logs",
+    "seed": 1239,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "snope_kerplelog"
+}

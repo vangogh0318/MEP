@@ -1,0 +1,10 @@
+{
+    "save": "alibi_kerplelog_openwebtext2_1236_checkpoints",
+    "load": "alibi_kerplelog_openwebtext2_1236_checkpoints",
+    "log-dir": "alibi_kerplelog_openwebtext2_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_kerplelog"
+}

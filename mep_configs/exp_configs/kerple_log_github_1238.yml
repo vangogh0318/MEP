@@ -1,0 +1,9 @@
+{
+    "save": "kerple_log_github_1238_checkpoints",
+    "load": "kerple_log_github_1238_checkpoints",
+    "log-dir": "kerple_log_github_1238_logs",
+    "seed": 1238,
+    "attention_softmax_in_fp32": True,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "kerple_log"
+}

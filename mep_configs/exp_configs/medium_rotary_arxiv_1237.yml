@@ -1,0 +1,10 @@
+{
+    "save": "medium_rope_512_arxiv_1237_checkpoints",
+    "load": "medium_rope_512_arxiv_1237_checkpoints",
+    "log-dir": "medium_rope_512_arxiv_1237_logs",
+    "seed": 1237,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 1,
+    "data-path": "data/arxiv/arxiv_text_document",
+    "pos-emb": "rotary"
+}

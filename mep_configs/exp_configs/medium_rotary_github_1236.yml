@@ -1,0 +1,10 @@
+{
+    "save": "medium_rope_512_github_1236_checkpoints",
+    "load": "medium_rope_512_github_1236_checkpoints",
+    "log-dir": "medium_rope_512_github_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 1,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "rotary"
+}

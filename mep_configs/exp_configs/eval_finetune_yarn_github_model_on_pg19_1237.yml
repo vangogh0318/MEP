@@ -1,0 +1,10 @@
+{
+    "save": "finetune_yarn_github_model_on_pg19_1236_2w_checkpoints",
+    "load": "finetune_yarn_github_model_on_pg19_1236_2w_checkpoints",
+    "log-dir": "finetune_yarn_github_model_on_pg19_1236_2w_logs",
+    "seed": 1237,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/pg19/pg19_text_document",
+    "pos-emb": "rotary"
+}

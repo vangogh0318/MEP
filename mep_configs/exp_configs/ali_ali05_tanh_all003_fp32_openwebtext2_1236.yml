@@ -1,0 +1,10 @@
+{
+    "save": "ali_ali05_tanh_all003_fp32_openwebtext2_1236_checkpoints",
+    "load": "ali_ali05_tanh_all003_fp32_openwebtext2_1236_checkpoints",
+    "log-dir": "ali_ali05_tanh_all003_fp32_openwebtext2_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 160,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_norm_original_scaling__"
+}

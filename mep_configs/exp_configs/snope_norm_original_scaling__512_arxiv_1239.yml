@@ -1,0 +1,9 @@
+{
+    "save": "snope_norm_original_scaling__512_arxiv_1239_checkpoints",
+    "load": "snope_norm_original_scaling__512_arxiv_1239_checkpoints",
+    "log-dir": "snope_norm_original_scaling__512_arxiv_1239_logs",
+    "seed": 1239,
+    "alibi_scaling": 512,
+    "data-path": "data/arxiv/arxiv_text_document",
+    "pos-emb": "snope_norm_original_scaling_"
+}

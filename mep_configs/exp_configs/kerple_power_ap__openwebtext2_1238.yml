@@ -1,0 +1,8 @@
+{
+    "save": "kerple_power_ap__openwebtext2_1238_checkpoints",
+    "load": "kerple_power_ap__openwebtext2_1238_checkpoints",
+    "log-dir": "kerple_power_ap__openwebtext2_1238_logs",
+    "seed": 1238,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "kerple_power_ap_"
+}

@@ -1,0 +1,10 @@
+{
+    "save": "t5_kerplelog_fp32_openwebtext2_1238_checkpoints",
+    "load": "t5_kerplelog_fp32_openwebtext2_1238_checkpoints",
+    "log-dir": "t5_kerplelog_fp32_openwebtext2_1238_logs",
+    "seed": 1238,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_kerplelog"
+}

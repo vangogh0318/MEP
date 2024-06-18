@@ -1,0 +1,10 @@
+{
+    "save": "len_t5_kerplelog_alibi_gau_arxiv_1235_checkpoints",
+    "load": "len_t5_kerplelog_alibi_gau_arxiv_1235_checkpoints",
+    "log-dir": "len_t5_kerplelog_alibi_gau_arxiv_1235_logs",
+    "seed": 1235,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/arxiv/arxiv_text_document",
+    "pos-emb": "snope_kerplelog"
+}

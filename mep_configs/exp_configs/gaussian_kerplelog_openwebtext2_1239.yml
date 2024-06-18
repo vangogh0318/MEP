@@ -1,0 +1,10 @@
+{
+    "save": "gaussian_kerplelog_openwebtext2_1239_checkpoints",
+    "load": "gaussian_kerplelog_openwebtext2_1239_checkpoints",
+    "log-dir": "gaussian_kerplelog_openwebtext2_1239_logs",
+    "seed": 1239,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_kerplelog"
+}

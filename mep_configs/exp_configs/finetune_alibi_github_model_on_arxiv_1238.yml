@@ -1,0 +1,10 @@
+{
+    "save": "finetune_alibi_github_model_on_arxiv_1236_checkpoints",
+    "load": "alibi_512_github_1236_checkpoints",
+    "log-dir": "finetune_alibi_github_model_on_arxiv_1236_logs",
+    "seed": 1238,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "alibi"
+}

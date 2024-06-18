@@ -1,0 +1,10 @@
+{
+    "save": "t5_512_arxiv_1236_checkpoints",
+    "load": "t5_512_arxiv_1236_checkpoints",
+    "log-dir": "t5_512_arxiv_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/arxiv/arxiv_text_document",
+    "pos-emb": "rpe"
+}

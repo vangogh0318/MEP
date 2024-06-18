@@ -1,0 +1,10 @@
+{
+    "save": "snope_sigmoid_hall_fp32_openwebtext2_1236_checkpoints",
+    "load": "snope_sigmoid_hall_fp32_openwebtext2_1236_checkpoints",
+    "log-dir": "snope_sigmoid_hall_fp32_openwebtext2_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 160,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "snope_norm_original_scaling__"
+}

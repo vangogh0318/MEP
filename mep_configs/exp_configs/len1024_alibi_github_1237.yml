@@ -1,0 +1,10 @@
+{
+    "save": "len_alibi_512_github_1237_checkpoints",
+    "load": "len_alibi_512_github_1237_checkpoints",
+    "log-dir": "len_alibi_512_github_1237_logs",
+    "seed": 1237,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "alibi"
+}

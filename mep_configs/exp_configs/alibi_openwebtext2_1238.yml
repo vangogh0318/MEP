@@ -1,0 +1,8 @@
+{
+    "save": "alibi_32_openwebtext2_1238_checkpoints",
+    "load": "alibi_32_openwebtext2_1238_checkpoints",
+    "log-dir": "alibi_32_openwebtext2_1238_logs",
+    "seed": 1238,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "alibi"
+}

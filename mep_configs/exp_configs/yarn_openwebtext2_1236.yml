@@ -1,0 +1,9 @@
+{
+    "save": "yarn_openwebtext2_1236_checkpoints",
+    "load": "yarn_openwebtext2_1236_checkpoints",
+    "log-dir": "yarn_openwebtext2_1236_logs",
+    "seed": 1236,
+    "alibi_scaling": 10,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "rotary"
+}

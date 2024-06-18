@@ -1,0 +1,10 @@
+{
+    "save": "medium_t5_kerplelog_alibi_gau_github_1235_checkpoints",
+    "load": "medium_t5_kerplelog_alibi_gau_github_1235_checkpoints",
+    "log-dir": "medium_t5_kerplelog_alibi_gau_github_1235_logs",
+    "seed": 1235,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "snope_kerplelog"
+}

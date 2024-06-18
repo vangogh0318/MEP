@@ -1,0 +1,8 @@
+{
+    "save": "alibi_slopes00039_openwebtext2_1236_checkpoints",
+    "load": "alibi_slopes00039_openwebtext2_1236_checkpoints",
+    "log-dir": "alibi_slopes00039_openwebtext2_1236_logs",
+    "seed": 1236,
+    "data-path": "data/openwebtext2/openwebtext2_text_document",
+    "pos-emb": "alibi"
+}

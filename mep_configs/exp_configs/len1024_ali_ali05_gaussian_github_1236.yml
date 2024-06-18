@@ -1,0 +1,10 @@
+{
+    "save": "len_ali_ali05_gaussian_github_1236_checkpoints",
+    "load": "len_ali_ali05_gaussian_github_1236_checkpoints",
+    "log-dir": "len_ali_ali05_gaussian_github_1236_logs",
+    "seed": 1236,
+    "attention_softmax_in_fp32": True,
+    "alibi_scaling": 512,
+    "data-path": "data/github/github_text_document",
+    "pos-emb": "snope_norm_original_scaling__"
+}
